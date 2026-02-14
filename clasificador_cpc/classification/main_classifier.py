@@ -8,11 +8,11 @@ import argparse
 import sys
 import os
 
-from cpc_taxonomy import get_all_categories, CPC_TAXONOMY, CATEGORY_ICONS
-from patent_categorizer import PatentCategorizer, analyze_single_patent
-from batch_classifier import (
-    BatchPatentClassifier, 
-    classify_patent_list, 
+from core.cpc_taxonomy import get_all_categories, CPC_TAXONOMY, CATEGORY_ICONS
+from classification.patent_categorizer import PatentCategorizer, analyze_single_patent
+from classification.batch_classifier import (
+    BatchPatentClassifier,
+    classify_patent_list,
     classify_csv_file
 )
 

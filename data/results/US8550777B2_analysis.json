@@ -1,0 +1,20 @@
+{
+  "patent_id": "US8550777B2",
+  "title": "Wind turbine blade and blade element combination and method of changing the aerodynamic profile of a wind turbine blade \n       ",
+  "categoria_principal": "Perfil Aerodinámico",
+  "categorias": [
+    "Perfil Aerodinámico",
+    "Estructura y Superficie",
+    "Características de Forma"
+  ],
+  "enfoque_tecnologico": [
+    "Optimización aerodinámica",
+    "Diseño geométrico",
+    "Ingeniería estructural"
+  ],
+  "scores": {
+    "perfil_aerodinamico": 8.2,
+    "estructura_superficie": 1.0,
+    "geometria_forma": 0.8
+  }
+}

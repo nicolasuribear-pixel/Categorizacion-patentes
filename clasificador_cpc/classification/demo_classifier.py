@@ -9,11 +9,11 @@ import os
 import numpy as np
 from datetime import datetime
 
-from cpc_taxonomy import (
+from core.cpc_taxonomy import (
     CPC_TAXONOMY, CATEGORY_ICONS, categorize_patent_codes,
     get_all_categories
 )
-from sample_patents import SAMPLE_PATENTS, get_all_sample_ids
+from classification.sample_patents import SAMPLE_PATENTS, get_all_sample_ids
 
 
 class DemoPatentClassifier:

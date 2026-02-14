@@ -12,7 +12,7 @@ import re
 from datetime import datetime
 from collections import defaultdict
 
-from cpc_taxonomy import (
+from core.cpc_taxonomy import (
     CPC_TAXONOMY, CODE_INDEX, ALL_CPC_CODES,
     categorize_patent_codes, get_category_for_code,
     CATEGORY_ICONS, CATEGORY_COLORS, normalize_code

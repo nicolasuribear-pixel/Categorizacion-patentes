@@ -1,0 +1,8 @@
+numpy
+pandas
+requests
+beautifulsoup4
+bs4
+networkx
+scikit-learn
+matplotlib

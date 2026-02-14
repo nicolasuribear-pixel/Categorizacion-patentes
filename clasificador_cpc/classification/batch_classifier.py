@@ -13,11 +13,11 @@ import pandas as pd
 from datetime import datetime
 from collections import defaultdict
 
-from cpc_taxonomy import (
+from core.cpc_taxonomy import (
     CPC_TAXONOMY, CATEGORY_ICONS, CATEGORY_COLORS,
     get_all_categories
 )
-from patent_categorizer import PatentCategorizer
+from classification.patent_categorizer import PatentCategorizer
 
 
 class BatchPatentClassifier:

@@ -1,76 +1,35 @@
 # Categorizacion de Patentes
 
-Sistema para la categorizacion y analisis de patentes.
+Repositorio con **dos proyectos independientes** para trabajar con patentes de palas eólicas:
+
+| Proyecto | Descripción | Ejecutable |
+|----------|-------------|------------|
+| **[clasificador_cpc/](clasificador_cpc/)** | Clasificación por **códigos CPC/IPC** (taxonomía temática) | `cd clasificador_cpc && python main.py` |
+| **[analisis_rfsl/](analisis_rfsl/)** | Análisis por **RFSL** (entidades → grafo → similitud/clustering) | `cd analisis_rfsl && python main.py` |
+
+Cada uno tiene su propio `main.py`, `requirements.txt` y `README.md`. Son independientes: puedes usar solo uno o ambos.
 
 ## Requisitos
 
-- Python 3.8 o superior
-- Git
+- Python 3.8+
+- Dependencias: instalar dentro de cada proyecto con `pip install -r requirements.txt`
 
-## Instalacion
+## Uso rápido
 
-### 1. Clonar el repositorio
-
+**Clasificar patentes por códigos (CPC):**
 ```bash
-git clone https://github.com/tu-usuario/Categorizacion-patentes.git
-cd Categorizacion-patentes
-```
-
-### 2. Crear el entorno virtual
-
-**Windows:**
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-**Linux/macOS:**
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Instalar dependencias
-
-```bash
+cd clasificador_cpc
 pip install -r requirements.txt
+python main.py
 ```
 
-### 4. Crear la estructura de carpetas
-
-Ejecutar el script `Estructura.py` para generar la estructura de directorios necesaria y la plantilla de patentes:
-
+**Análisis por texto (RFSL) y grafo:**
 ```bash
-python Estructura.py
+cd analisis_rfsl
+pip install -r requirements.txt
+python main.py
 ```
 
-Este script creara las siguientes carpetas:
+## Documentación de flujos
 
-- `data/raw/patents` - Patentes en formato raw
-- `data/raw/images` - Imagenes asociadas a las patentes
-- `data/processed` - Datos procesados
-- `models` - Modelos entrenados
-- `results` - Resultados del analisis
-- `logs` - Archivos de registro
-
-Ademas, generara el archivo `data/patent_template.json` con la plantilla base para las patentes.
-
-## Estructura del Proyecto
-
-```
-Categorizacion-patentes/
-├── data/
-│   ├── raw/
-│   │   ├── patents/
-│   │   └── images/
-│   ├── processed/
-│   └── patent_template.json
-├── models/
-├── results/
-├── logs/
-├── Estructura.py
-├── requirements.txt
-└── ...
-```
+En **[FLUJOS.md](FLUJOS.md)** se explica en detalle cómo funciona cada enfoque (por códigos vs por RFSL).
