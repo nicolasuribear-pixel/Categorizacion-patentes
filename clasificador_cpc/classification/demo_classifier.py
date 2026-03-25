@@ -9,6 +9,7 @@ import os
 import numpy as np
 from datetime import datetime
 
+from core.data_paths import data_path
 from core.cpc_taxonomy import (
     CPC_TAXONOMY, CATEGORY_ICONS, categorize_patent_codes,
     get_all_categories
@@ -186,7 +187,7 @@ class DemoPatentClassifier:
         if not self.results:
             self.process_all()
         
-        output_dir = "data/results"
+        output_dir = data_path("results")
         os.makedirs(output_dir, exist_ok=True)
         
         filepath = os.path.join(output_dir, filename)

@@ -12,6 +12,7 @@ import re
 from datetime import datetime
 from collections import defaultdict
 
+from core.data_paths import data_path
 from core.cpc_taxonomy import (
     CPC_TAXONOMY, CODE_INDEX, ALL_CPC_CODES,
     categorize_patent_codes, get_category_for_code,
@@ -25,13 +26,15 @@ class PatentCategorizer:
     Descarga, extrae códigos y categoriza automáticamente
     """
     
-    def __init__(self, cache_dir="data/cache"):
+    def __init__(self, cache_dir=None):
         """
         Inicializa el categorizador
         
         Args:
             cache_dir: directorio para cache de patentes descargadas
         """
+        if cache_dir is None:
+            cache_dir = data_path("cache")
         self.cache_dir = cache_dir
         os.makedirs(cache_dir, exist_ok=True)
         
