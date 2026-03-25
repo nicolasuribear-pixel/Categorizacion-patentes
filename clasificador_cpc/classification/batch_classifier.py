@@ -17,6 +17,7 @@ from core.cpc_taxonomy import (
     CPC_TAXONOMY, CATEGORY_ICONS, CATEGORY_COLORS,
     get_all_categories
 )
+from core.data_paths import data_path
 from classification.patent_categorizer import PatentCategorizer
 
 
@@ -26,13 +27,15 @@ class BatchPatentClassifier:
     Procesa listas de patentes y genera análisis agregados
     """
     
-    def __init__(self, output_dir="data/results/batch"):
+    def __init__(self, output_dir=None):
         """
         Inicializa el clasificador por lotes
         
         Args:
             output_dir: directorio para guardar resultados
         """
+        if output_dir is None:
+            output_dir = data_path("results/batch")
         self.categorizer = PatentCategorizer()
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
