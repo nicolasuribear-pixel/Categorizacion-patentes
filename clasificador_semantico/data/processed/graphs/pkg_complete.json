@@ -1,0 +1,3272 @@
+{
+  "nodes": [
+    {
+      "id": "US10400744B2_R_0",
+      "label": "structural load",
+      "type": "R",
+      "patent_id": "US10400744B2",
+      "category": "",
+      "position": 1379,
+      "action": "loads",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US10400744B2_F_0",
+      "label": "increase blade stiffness",
+      "type": "F",
+      "patent_id": "US10400744B2",
+      "category": "",
+      "position": 798,
+      "verb": "increase",
+      "noun": "blade stiffness",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US10400744B2_S_0",
+      "label": "bonding line",
+      "type": "S",
+      "patent_id": "US10400744B2",
+      "category": "bonding_line",
+      "position": 1134,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_S_1",
+      "label": "bonding line",
+      "type": "S",
+      "patent_id": "US10400744B2",
+      "category": "bonding_line",
+      "position": 2016,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_S_2",
+      "label": "laminate",
+      "type": "S",
+      "patent_id": "US10400744B2",
+      "category": "laminate",
+      "position": 1601,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_S_3",
+      "label": "laminate",
+      "type": "S",
+      "patent_id": "US10400744B2",
+      "category": "laminate",
+      "position": 1946,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_S_4",
+      "label": "carbon fibre",
+      "type": "S",
+      "patent_id": "US10400744B2",
+      "category": "carbon_fiber",
+      "position": 2065,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_S_5",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US10400744B2",
+      "category": "blade",
+      "position": 1026,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_S_6",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US10400744B2",
+      "category": "blade",
+      "position": 1228,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_L_0",
+      "label": "spar cap region",
+      "type": "L",
+      "patent_id": "US10400744B2",
+      "category": "structural_zones",
+      "position": 742,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_L_1",
+      "label": "spar cap region",
+      "type": "L",
+      "patent_id": "US10400744B2",
+      "category": "structural_zones",
+      "position": 2104,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_L_2",
+      "label": "airfoil area",
+      "type": "L",
+      "patent_id": "US10400744B2",
+      "category": "structural_zones",
+      "position": 371,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_L_3",
+      "label": "transition area",
+      "type": "L",
+      "patent_id": "US10400744B2",
+      "category": "structural_zones",
+      "position": 322,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_L_4",
+      "label": "transition area",
+      "type": "L",
+      "patent_id": "US10400744B2",
+      "category": "structural_zones",
+      "position": 897,
+      "method": ""
+    },
+    {
+      "id": "US10400744B2_L_5",
+      "label": "transition area",
+      "type": "L",
+      "patent_id": "US10400744B2",
+      "category": "structural_zones",
+      "position": 1772,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_R_0",
+      "label": "turbulence",
+      "type": "R",
+      "patent_id": "US8932024B2",
+      "category": "",
+      "position": 255,
+      "action": "flow_control",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8932024B2_R_1",
+      "label": "blade mass",
+      "type": "R",
+      "patent_id": "US8932024B2",
+      "category": "",
+      "position": 2278,
+      "action": "weight",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8932024B2_F_0",
+      "label": "configured to reduce aerodynamic noise",
+      "type": "F",
+      "patent_id": "US8932024B2",
+      "category": "",
+      "position": 583,
+      "verb": "functional_phrase",
+      "noun": "reduce aerodynamic noise",
+      "method": "phrase_pattern"
+    },
+    {
+      "id": "US8932024B2_F_1",
+      "label": "minimize acoustic emission",
+      "type": "F",
+      "patent_id": "US8932024B2",
+      "category": "",
+      "position": 626,
+      "verb": "minimize",
+      "noun": "acoustic emission",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8932024B2_F_2",
+      "label": "minimize acoustic emission",
+      "type": "F",
+      "patent_id": "US8932024B2",
+      "category": "",
+      "position": 1528,
+      "verb": "minimize",
+      "noun": "acoustic emission",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8932024B2_F_3",
+      "label": "reduce noise emission",
+      "type": "F",
+      "patent_id": "US8932024B2",
+      "category": "",
+      "position": 1596,
+      "verb": "reduce",
+      "noun": "noise emission",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8932024B2_S_7",
+      "label": "serrations",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "serration",
+      "position": 1723,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_8",
+      "label": "serrations",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "serration",
+      "position": 1812,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_9",
+      "label": "serrations",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "serration",
+      "position": 2033,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_10",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 940,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_11",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1310,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_12",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1422,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_13",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1632,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_14",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1690,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_15",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1709,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_16",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1753,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_4",
+      "label": "laminate",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "laminate",
+      "position": 1063,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_5",
+      "label": "fibre composite",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "composite",
+      "position": 2241,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_1",
+      "label": "trailing edge serrations",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "serration",
+      "position": 105,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_2",
+      "label": "bonding line",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "bonding_line",
+      "position": 2199,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_0",
+      "label": "trailing edge serrations",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "serration",
+      "position": 24,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_3",
+      "label": "foam core",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "foam_core",
+      "position": 2069,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_6",
+      "label": "serrations",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "serration",
+      "position": 1653,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_17",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1882,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_18",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1907,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_19",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1941,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_20",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 1991,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_21",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 2094,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_S_22",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8932024B2",
+      "category": "trailing_edge",
+      "position": 2185,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_L_0",
+      "label": "suction side of the blade",
+      "type": "L",
+      "patent_id": "US8932024B2",
+      "category": "sides",
+      "position": 1781,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_L_1",
+      "label": "near the trailing edge",
+      "type": "L",
+      "patent_id": "US8932024B2",
+      "category": "chordwise",
+      "position": 1873,
+      "method": ""
+    },
+    {
+      "id": "US8932024B2_L_2",
+      "label": "trailing edge region",
+      "type": "L",
+      "patent_id": "US8932024B2",
+      "category": "chordwise",
+      "position": 2094,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_R_1",
+      "label": "structural load",
+      "type": "R",
+      "patent_id": "US8550777B2",
+      "category": "",
+      "position": 404,
+      "action": "loads",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8550777B2_R_0",
+      "label": "aerodynamic load",
+      "type": "R",
+      "patent_id": "US8550777B2",
+      "category": "",
+      "position": 383,
+      "action": "loads",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8550777B2_R_2",
+      "label": "blade mass",
+      "type": "R",
+      "patent_id": "US8550777B2",
+      "category": "",
+      "position": 538,
+      "action": "weight",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8550777B2_F_0",
+      "label": "configured to resist bending moment",
+      "type": "F",
+      "patent_id": "US8550777B2",
+      "category": "",
+      "position": 825,
+      "verb": "functional_phrase",
+      "noun": "resist bending moment",
+      "method": "phrase_pattern"
+    },
+    {
+      "id": "US8550777B2_F_1",
+      "label": "increase blade stiffness",
+      "type": "F",
+      "patent_id": "US8550777B2",
+      "category": "",
+      "position": 282,
+      "verb": "increase",
+      "noun": "blade stiffness",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8550777B2_F_2",
+      "label": "resist bending moment",
+      "type": "F",
+      "patent_id": "US8550777B2",
+      "category": "",
+      "position": 1569,
+      "verb": "resist",
+      "noun": "bending moment",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8550777B2_S_17",
+      "label": "spar",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "spar",
+      "position": 2070,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_18",
+      "label": "spar",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "spar",
+      "position": 2172,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_19",
+      "label": "spar",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "spar",
+      "position": 2201,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_20",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "blade",
+      "position": 888,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_21",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "blade",
+      "position": 1015,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_22",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "blade",
+      "position": 1165,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_23",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "trailing_edge",
+      "position": 489,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_3",
+      "label": "bonding line",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "bonding_line",
+      "position": 1348,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_4",
+      "label": "bonding line",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "bonding_line",
+      "position": 2382,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_5",
+      "label": "laminate",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "laminate",
+      "position": 270,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_6",
+      "label": "laminate",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "laminate",
+      "position": 751,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_7",
+      "label": "laminate",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "laminate",
+      "position": 1265,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_8",
+      "label": "laminate",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "laminate",
+      "position": 2111,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_9",
+      "label": "carbon fibre",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "carbon_fiber",
+      "position": 1858,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_10",
+      "label": "carbon fibre",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "carbon_fiber",
+      "position": 2087,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_11",
+      "label": "spar cap",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "spar",
+      "position": 1542,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_12",
+      "label": "spar cap",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "spar",
+      "position": 1834,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_13",
+      "label": "spar cap",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "spar",
+      "position": 2070,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_14",
+      "label": "spar cap",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "spar",
+      "position": 2172,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_15",
+      "label": "spar cap",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "spar",
+      "position": 2201,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_16",
+      "label": "spar",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "spar",
+      "position": 1908,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_0",
+      "label": "adhesive bond",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "adhesive",
+      "position": 2342,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_1",
+      "label": "root flange",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "flange",
+      "position": 1091,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_2",
+      "label": "root flange",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "flange",
+      "position": 2006,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_S_24",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8550777B2",
+      "category": "trailing_edge",
+      "position": 2286,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_L_0",
+      "label": "within the blade",
+      "type": "L",
+      "patent_id": "US8550777B2",
+      "category": "depth",
+      "position": 2210,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_L_1",
+      "label": "tip region",
+      "type": "L",
+      "patent_id": "US8550777B2",
+      "category": "spanwise",
+      "position": 429,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_L_3",
+      "label": "trailing edge region",
+      "type": "L",
+      "patent_id": "US8550777B2",
+      "category": "chordwise",
+      "position": 489,
+      "method": ""
+    },
+    {
+      "id": "US8550777B2_L_4",
+      "label": "trailing edge region",
+      "type": "L",
+      "patent_id": "US8550777B2",
+      "category": "chordwise",
+      "position": 2286,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_R_0",
+      "label": "boundary layer separation",
+      "type": "R",
+      "patent_id": "US8936435B2",
+      "category": "",
+      "position": 53,
+      "action": "flow_control",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8936435B2_R_1",
+      "label": "aerodynamic load",
+      "type": "R",
+      "patent_id": "US8936435B2",
+      "category": "",
+      "position": 2300,
+      "action": "loads",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8936435B2_F_0",
+      "label": "designed to optimize lift",
+      "type": "F",
+      "patent_id": "US8936435B2",
+      "category": "",
+      "position": 1908,
+      "verb": "functional_phrase",
+      "noun": "optimize lift",
+      "method": "phrase_pattern"
+    },
+    {
+      "id": "US8936435B2_F_1",
+      "label": "reduce flow separation",
+      "type": "F",
+      "patent_id": "US8936435B2",
+      "category": "",
+      "position": 1678,
+      "verb": "reduce",
+      "noun": "flow separation",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8936435B2_F_2",
+      "label": "increase power output",
+      "type": "F",
+      "patent_id": "US8936435B2",
+      "category": "",
+      "position": 1643,
+      "verb": "increase",
+      "noun": "power output",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8936435B2_F_3",
+      "label": "improve aerodynamic efficiency",
+      "type": "F",
+      "patent_id": "US8936435B2",
+      "category": "",
+      "position": 1608,
+      "verb": "improve",
+      "noun": "aerodynamic efficiency",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8936435B2_F_4",
+      "label": "improve aerodynamic efficiency",
+      "type": "F",
+      "patent_id": "US8936435B2",
+      "category": "",
+      "position": 2101,
+      "verb": "improve",
+      "noun": "aerodynamic efficiency",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8936435B2_S_24",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "blade",
+      "position": 5,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_25",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "trailing_edge",
+      "position": 435,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_26",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "trailing_edge",
+      "position": 578,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_27",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "trailing_edge",
+      "position": 1039,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_28",
+      "label": "trailing edge",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "trailing_edge",
+      "position": 2000,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_29",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "blade",
+      "position": 1111,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_30",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "blade",
+      "position": 2354,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_0",
+      "label": "turbine rotor",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "rotor",
+      "position": 1307,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_2",
+      "label": "rotor hub",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "hub",
+      "position": 2375,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_3",
+      "label": "pitch bearing",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "pitch_bearing",
+      "position": 2322,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_4",
+      "label": "vortex generators",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "vortex_generator",
+      "position": 719,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_5",
+      "label": "vortex generators",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "vortex_generator",
+      "position": 857,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_6",
+      "label": "vortex generators",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "vortex_generator",
+      "position": 1738,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_1",
+      "label": "gurney flap",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "gurney_flap",
+      "position": 1020,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_S_7",
+      "label": "vortex generators",
+      "type": "S",
+      "patent_id": "US8936435B2",
+      "category": "vortex_generator",
+      "position": 1801,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_L_1",
+      "label": "suction side of the blade",
+      "type": "L",
+      "patent_id": "US8936435B2",
+      "category": "sides",
+      "position": 164,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_L_2",
+      "label": "suction side of the blade",
+      "type": "L",
+      "patent_id": "US8936435B2",
+      "category": "sides",
+      "position": 1403,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_L_3",
+      "label": "on the suction side",
+      "type": "L",
+      "patent_id": "US8936435B2",
+      "category": "sides",
+      "position": 1396,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_L_0",
+      "label": "near the leading edge",
+      "type": "L",
+      "patent_id": "US8936435B2",
+      "category": "chordwise",
+      "position": 311,
+      "method": ""
+    },
+    {
+      "id": "US8936435B2_L_4",
+      "label": "on the suction side",
+      "type": "L",
+      "patent_id": "US8936435B2",
+      "category": "sides",
+      "position": 1768,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_R_0",
+      "label": "rain erosion",
+      "type": "R",
+      "patent_id": "US8834130B2",
+      "category": "",
+      "position": 1147,
+      "action": "erosion",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8834130B2_R_1",
+      "label": "leading edge erosion",
+      "type": "R",
+      "patent_id": "US8834130B2",
+      "category": "",
+      "position": 396,
+      "action": "erosion",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8834130B2_R_2",
+      "label": "structural load",
+      "type": "R",
+      "patent_id": "US8834130B2",
+      "category": "",
+      "position": 1272,
+      "action": "loads",
+      "method": "target_keyword"
+    },
+    {
+      "id": "US8834130B2_F_0",
+      "label": "heating element to eliminate icing",
+      "type": "F",
+      "patent_id": "US8834130B2",
+      "category": "",
+      "position": 485,
+      "verb": "heat",
+      "noun": "icing",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8834130B2_F_1",
+      "label": "reduce leading edge erosion",
+      "type": "F",
+      "patent_id": "US8834130B2",
+      "category": "",
+      "position": 2172,
+      "verb": "reduce",
+      "noun": "erosion",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8834130B2_F_2",
+      "label": "eliminate icing",
+      "type": "F",
+      "patent_id": "US8834130B2",
+      "category": "",
+      "position": 1537,
+      "verb": "eliminate",
+      "noun": "icing",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8834130B2_F_3",
+      "label": "prevent ice accretion",
+      "type": "F",
+      "patent_id": "US8834130B2",
+      "category": "",
+      "position": 1511,
+      "verb": "prevent",
+      "noun": "ice accretion",
+      "method": "verb+noun"
+    },
+    {
+      "id": "US8834130B2_S_31",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "blade",
+      "position": 5,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_32",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "blade",
+      "position": 82,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_33",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "blade",
+      "position": 528,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_34",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "blade",
+      "position": 700,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_35",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "blade",
+      "position": 864,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_36",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "blade",
+      "position": 1030,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_37",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "blade",
+      "position": 1211,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_38",
+      "label": "turbine blade",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "blade",
+      "position": 1357,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_10",
+      "label": "leading edge",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "leading_edge",
+      "position": 1114,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_11",
+      "label": "leading edge",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "leading_edge",
+      "position": 1372,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_12",
+      "label": "leading edge",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "leading_edge",
+      "position": 1676,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_13",
+      "label": "leading edge",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "leading_edge",
+      "position": 1809,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_6",
+      "label": "heating element",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "heating_element",
+      "position": 1827,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_4",
+      "label": "heating element",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "heating_element",
+      "position": 594,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_5",
+      "label": "heating element",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "heating_element",
+      "position": 1637,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_7",
+      "label": "leading edge",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "leading_edge",
+      "position": 396,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_8",
+      "label": "suction side",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "suction_side",
+      "position": 802,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_9",
+      "label": "leading edge",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "leading_edge",
+      "position": 1092,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_14",
+      "label": "leading edge",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "leading_edge",
+      "position": 2159,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_15",
+      "label": "leading edge",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "leading_edge",
+      "position": 2179,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_3",
+      "label": "heating element",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "heating_element",
+      "position": 485,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_0",
+      "label": "erosion protection shield",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "protective_coating",
+      "position": 2103,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_1",
+      "label": "protective coating",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "protective_coating",
+      "position": 1066,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_S_2",
+      "label": "epoxy",
+      "type": "S",
+      "patent_id": "US8834130B2",
+      "category": "epoxy_resin",
+      "position": 2337,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_L_1",
+      "label": "within the blade",
+      "type": "L",
+      "patent_id": "US8834130B2",
+      "category": "depth",
+      "position": 1854,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_L_2",
+      "label": "near the leading edge",
+      "type": "L",
+      "patent_id": "US8834130B2",
+      "category": "chordwise",
+      "position": 175,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_L_3",
+      "label": "suction side of the blade",
+      "type": "L",
+      "patent_id": "US8834130B2",
+      "category": "sides",
+      "position": 802,
+      "method": ""
+    },
+    {
+      "id": "US8834130B2_L_0",
+      "label": "inner surface of the blade",
+      "type": "L",
+      "patent_id": "US8834130B2",
+      "category": "depth",
+      "position": 1884,
+      "method": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "US10400744B2_R_0",
+      "target": "US10400744B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US10400744B2_F_0",
+      "target": "US10400744B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US10400744B2_F_0",
+      "target": "US10400744B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US10400744B2_F_0",
+      "target": "US10400744B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US10400744B2_F_0",
+      "target": "US10400744B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US10400744B2_F_0",
+      "target": "US10400744B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US10400744B2_F_0",
+      "target": "US10400744B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US10400744B2_F_0",
+      "target": "US10400744B2_L_4",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US10400744B2_F_0",
+      "target": "US10400744B2_L_2",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US10400744B2_F_0",
+      "target": "US10400744B2_L_0",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US10400744B2_S_0",
+      "target": "US10400744B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_0",
+      "target": "US10400744B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_0",
+      "target": "US10400744B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_0",
+      "target": "US10400744B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_0",
+      "target": "US10400744B2_L_5",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_0",
+      "target": "US10400744B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_1",
+      "target": "US10400744B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_1",
+      "target": "US10400744B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_1",
+      "target": "US10400744B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_1",
+      "target": "US10400744B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_2",
+      "target": "US10400744B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_2",
+      "target": "US10400744B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_2",
+      "target": "US10400744B2_L_5",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_3",
+      "target": "US10400744B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_3",
+      "target": "US10400744B2_L_5",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_4",
+      "target": "US10400744B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US10400744B2_S_4",
+      "target": "US10400744B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_F_2",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_F_3",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_S_7",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_S_8",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_S_9",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_S_1",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_S_0",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8932024B2_R_0",
+      "target": "US8932024B2_S_6",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8932024B2_R_1",
+      "target": "US8932024B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8932024B2_R_1",
+      "target": "US8932024B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8932024B2_R_1",
+      "target": "US8932024B2_S_5",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8932024B2_R_1",
+      "target": "US8932024B2_S_3",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_14",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_11",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_12",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_10",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_7",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_8",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_S_9",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_0",
+      "target": "US8932024B2_L_0",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_13",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_12",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_10",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_8",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_7",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_S_9",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_1",
+      "target": "US8932024B2_L_0",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_16",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_17",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_18",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_8",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_9",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_10",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_7",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_11",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_S_15",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_L_1",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8932024B2_F_2",
+      "target": "US8932024B2_L_0",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8932024B2_F_3",
+      "target": "US8932024B2_S_15",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_3",
+      "target": "US8932024B2_S_12",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_3",
+      "target": "US8932024B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_3",
+      "target": "US8932024B2_S_13",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_3",
+      "target": "US8932024B2_S_14",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_3",
+      "target": "US8932024B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_F_3",
+      "target": "US8932024B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8932024B2_S_7",
+      "target": "US8932024B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_8",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_9",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_10",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_12",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_15",
+      "target": "US8932024B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_16",
+      "target": "US8932024B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_16",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_4",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_4",
+      "target": "US8932024B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_1",
+      "target": "US8932024B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_1",
+      "target": "US8932024B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_1",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_2",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_2",
+      "target": "US8932024B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_0",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_3",
+      "target": "US8932024B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_3",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_3",
+      "target": "US8932024B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_6",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_17",
+      "target": "US8932024B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_18",
+      "target": "US8932024B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_19",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_20",
+      "target": "US8932024B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8932024B2_S_21",
+      "target": "US8932024B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_F_2",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_17",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_18",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_19",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_11",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_12",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_13",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_14",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_15",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_16",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_1",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_1",
+      "target": "US8550777B2_S_2",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_F_2",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_17",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_18",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_19",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_11",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_12",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_13",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_14",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_15",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_16",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_1",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_0",
+      "target": "US8550777B2_S_2",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8550777B2_R_2",
+      "target": "US8550777B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_20",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_11",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_12",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_8",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_9",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_0",
+      "target": "US8550777B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_20",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_11",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_12",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_8",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_9",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_7",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_1",
+      "target": "US8550777B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_2",
+      "target": "US8550777B2_S_14",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_2",
+      "target": "US8550777B2_S_11",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_2",
+      "target": "US8550777B2_S_8",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_2",
+      "target": "US8550777B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_2",
+      "target": "US8550777B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_F_2",
+      "target": "US8550777B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8550777B2_S_18",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_19",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_23",
+      "target": "US8550777B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_3",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_3",
+      "target": "US8550777B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_4",
+      "target": "US8550777B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_4",
+      "target": "US8550777B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_4",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_5",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_5",
+      "target": "US8550777B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_6",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_8",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_14",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_15",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_0",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_0",
+      "target": "US8550777B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_1",
+      "target": "US8550777B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_1",
+      "target": "US8550777B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_2",
+      "target": "US8550777B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_2",
+      "target": "US8550777B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_2",
+      "target": "US8550777B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8550777B2_S_24",
+      "target": "US8550777B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_R_0",
+      "target": "US8936435B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8936435B2_R_0",
+      "target": "US8936435B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8936435B2_R_0",
+      "target": "US8936435B2_F_3",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8936435B2_R_0",
+      "target": "US8936435B2_F_2",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8936435B2_R_0",
+      "target": "US8936435B2_F_4",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8936435B2_R_0",
+      "target": "US8936435B2_S_4",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8936435B2_R_0",
+      "target": "US8936435B2_S_5",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8936435B2_R_0",
+      "target": "US8936435B2_S_6",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8936435B2_R_0",
+      "target": "US8936435B2_S_7",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8936435B2_R_1",
+      "target": "US8936435B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8936435B2_R_1",
+      "target": "US8936435B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8936435B2_R_1",
+      "target": "US8936435B2_F_4",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_7",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_24",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_25",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_30",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_28",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_29",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_S_27",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_L_4",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_L_1",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_L_3",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_L_0",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_0",
+      "target": "US8936435B2_L_2",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_28",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_29",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_27",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_26",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_25",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_7",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_L_1",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_L_3",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_L_2",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_L_0",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_1",
+      "target": "US8936435B2_L_4",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_2",
+      "target": "US8936435B2_S_27",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_2",
+      "target": "US8936435B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_2",
+      "target": "US8936435B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_2",
+      "target": "US8936435B2_S_7",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_2",
+      "target": "US8936435B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_2",
+      "target": "US8936435B2_L_4",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_F_4",
+      "target": "US8936435B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_4",
+      "target": "US8936435B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_4",
+      "target": "US8936435B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US8936435B2_F_4",
+      "target": "US8936435B2_L_1",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8936435B2_S_25",
+      "target": "US8936435B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_27",
+      "target": "US8936435B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_28",
+      "target": "US8936435B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_0",
+      "target": "US8936435B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_0",
+      "target": "US8936435B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_2",
+      "target": "US8936435B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_2",
+      "target": "US8936435B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_3",
+      "target": "US8936435B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_3",
+      "target": "US8936435B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_4",
+      "target": "US8936435B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_4",
+      "target": "US8936435B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_4",
+      "target": "US8936435B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_5",
+      "target": "US8936435B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_5",
+      "target": "US8936435B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_5",
+      "target": "US8936435B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_6",
+      "target": "US8936435B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_6",
+      "target": "US8936435B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_6",
+      "target": "US8936435B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_6",
+      "target": "US8936435B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_1",
+      "target": "US8936435B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_1",
+      "target": "US8936435B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_1",
+      "target": "US8936435B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8936435B2_S_7",
+      "target": "US8936435B2_L_4",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_F_2",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_F_3",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_10",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_11",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_12",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_13",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_7",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_9",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_14",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_15",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_0",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_0",
+      "target": "US8834130B2_S_1",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_F_2",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_F_3",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_10",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_11",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_12",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_13",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_7",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_9",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_14",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_15",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_0",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_1",
+      "target": "US8834130B2_S_1",
+      "relation": "fulfills"
+    },
+    {
+      "source": "US8834130B2_R_2",
+      "target": "US8834130B2_F_1",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_R_2",
+      "target": "US8834130B2_F_0",
+      "relation": "addresses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_12",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_36",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_10",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_7",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_35",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_8",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_37",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_38",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_9",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_13",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_14",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_15",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_33",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_31",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_S_32",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_L_3",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_L_2",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8834130B2_F_0",
+      "target": "US8834130B2_L_1",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_34",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_11",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_8",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_10",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_5",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_2",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_0",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_36",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_9",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_12",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_33",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_38",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_6",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_14",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_S_15",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_L_1",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8834130B2_F_1",
+      "target": "US8834130B2_L_2",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8834130B2_F_2",
+      "target": "US8834130B2_S_34",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_2",
+      "target": "US8834130B2_S_11",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_2",
+      "target": "US8834130B2_S_8",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_2",
+      "target": "US8834130B2_S_3",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_2",
+      "target": "US8834130B2_S_4",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_2",
+      "target": "US8834130B2_S_1",
+      "relation": "uses"
+    },
+    {
+      "source": "US8834130B2_F_2",
+      "target": "US8834130B2_L_1",
+      "relation": "occurs_at"
+    },
+    {
+      "source": "US8834130B2_S_10",
+      "target": "US8834130B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_11",
+      "target": "US8834130B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_12",
+      "target": "US8834130B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_12",
+      "target": "US8834130B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_12",
+      "target": "US8834130B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_13",
+      "target": "US8834130B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_6",
+      "target": "US8834130B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_4",
+      "target": "US8834130B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_4",
+      "target": "US8834130B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_5",
+      "target": "US8834130B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_5",
+      "target": "US8834130B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_8",
+      "target": "US8834130B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_8",
+      "target": "US8834130B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_14",
+      "target": "US8834130B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_15",
+      "target": "US8834130B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_3",
+      "target": "US8834130B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_3",
+      "target": "US8834130B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_0",
+      "target": "US8834130B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_1",
+      "target": "US8834130B2_L_0",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_1",
+      "target": "US8834130B2_L_2",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_1",
+      "target": "US8834130B2_L_1",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_1",
+      "target": "US8834130B2_L_3",
+      "relation": "located_at"
+    },
+    {
+      "source": "US8834130B2_S_2",
+      "target": "US8834130B2_L_2",
+      "relation": "located_at"
+    }
+  ]
+}

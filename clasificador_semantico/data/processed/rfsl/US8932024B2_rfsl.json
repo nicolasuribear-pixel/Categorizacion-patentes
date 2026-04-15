@@ -1,0 +1,990 @@
+{
+  "patent_id": "US8932024B2",
+  "entities": {
+    "R": [
+      {
+        "entity": "increase structural integrity",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 1129,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce aerodynamic noise a",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 52,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce aerodynamic noise and",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 169,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce noise emission",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 315,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce turbulence",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 958,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce blade weight and",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1105,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce noise emission and",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1596,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce turbulence intensity in",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1823,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "prevent flow separation at",
+        "type": "Requirement",
+        "action": "prevent",
+        "position": 909,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "minimize turbulence in the",
+        "type": "Requirement",
+        "action": "minimize",
+        "position": 246,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "minimize acoustic emission",
+        "type": "Requirement",
+        "action": "minimize",
+        "position": 626,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "minimize acoustic emission from",
+        "type": "Requirement",
+        "action": "minimize",
+        "position": 1528,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "minimize blade mass and",
+        "type": "Requirement",
+        "action": "minimize",
+        "position": 2269,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "eliminate trailing edge noise",
+        "type": "Requirement",
+        "action": "eliminate",
+        "position": 1622,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce noise emission and eliminate trailing edge noise",
+        "type": "Requirement",
+        "action": "intro_phrase",
+        "position": 1584,
+        "method": "intro_pattern"
+      },
+      {
+        "entity": "structural integrity",
+        "type": "Requirement",
+        "action": "structural_strength",
+        "position": 1138,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "blade weight",
+        "type": "Requirement",
+        "action": "weight",
+        "position": 1112,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "blade mass",
+        "type": "Requirement",
+        "action": "weight",
+        "position": 2278,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "aerodynamic noise",
+        "type": "Requirement",
+        "action": "noise",
+        "position": 59,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "acoustic emission",
+        "type": "Requirement",
+        "action": "noise",
+        "position": 198,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "noise emission",
+        "type": "Requirement",
+        "action": "noise",
+        "position": 322,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "fatigue damage",
+        "type": "Requirement",
+        "action": "fatigue",
+        "position": 2293,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "flow separation",
+        "type": "Requirement",
+        "action": "flow_control",
+        "position": 917,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "turbulence",
+        "type": "Requirement",
+        "action": "flow_control",
+        "position": 255,
+        "method": "target_keyword"
+      }
+    ],
+    "F": [
+      {
+        "entity": "generates acoustic emission",
+        "type": "Function",
+        "verb": "generate",
+        "noun": "acoustic emission",
+        "position": 1350,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "optimized to prevent flow separation",
+        "type": "Function",
+        "verb": "optimize",
+        "noun": "flow separation",
+        "position": 896,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevent flow separation",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "flow separation",
+        "position": 909,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase structural integrity",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "structural integrity",
+        "position": 1129,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce turbulence",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "turbulence",
+        "position": 958,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce turbulence",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "turbulence",
+        "position": 1823,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce aerodynamic noise",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "aerodynamic noise",
+        "position": 52,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce aerodynamic noise",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "aerodynamic noise",
+        "position": 169,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce aerodynamic noise",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "aerodynamic noise",
+        "position": 597,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce aerodynamic noise",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "aerodynamic noise",
+        "position": 1499,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce aerodynamic noise and acoustic emission",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "acoustic emission",
+        "position": 169,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce noise emission",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "noise emission",
+        "position": 315,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce noise emission",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "noise emission",
+        "position": 799,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce noise emission",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "noise emission",
+        "position": 1596,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "decreases aerodynamic noise",
+        "type": "Function",
+        "verb": "decrease",
+        "noun": "aerodynamic noise",
+        "position": 396,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "minimize turbulence in the boundary layer",
+        "type": "Function",
+        "verb": "minimize",
+        "noun": "boundary layer",
+        "position": 246,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "minimize turbulence",
+        "type": "Function",
+        "verb": "minimize",
+        "noun": "turbulence",
+        "position": 246,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "minimize acoustic emission",
+        "type": "Function",
+        "verb": "minimize",
+        "noun": "acoustic emission",
+        "position": 626,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "minimize acoustic emission",
+        "type": "Function",
+        "verb": "minimize",
+        "noun": "acoustic emission",
+        "position": 1528,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "configured to reduce aerodynamic noise",
+        "type": "Function",
+        "verb": "functional_phrase",
+        "noun": "reduce aerodynamic noise",
+        "position": 583,
+        "method": "phrase_pattern"
+      }
+    ],
+    "S": [
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 0
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 79
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 501
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 658
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 826
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 981
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1211
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1331
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1564
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 2217
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 5
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 84
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 506
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 663
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 831
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 986
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1216
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1336
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1569
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 2222
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 1024
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 2151
+      },
+      {
+        "entity": "sandwich panel",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 1077
+      },
+      {
+        "entity": "sandwich panel",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 2049
+      },
+      {
+        "entity": "blade tip",
+        "type": "Structure",
+        "category": "tip",
+        "position": 786
+      },
+      {
+        "entity": "mid-span",
+        "type": "Structure",
+        "category": "mid_span",
+        "position": 763
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 24
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 105
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 152
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 297
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 369
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 446
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 539
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 558
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 701
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 940
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1310
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1422
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1632
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1690
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1709
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1753
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1882
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1907
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1941
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1991
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 2094
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 2185
+      },
+      {
+        "entity": "blade trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 440
+      },
+      {
+        "entity": "blade trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 533
+      },
+      {
+        "entity": "blade trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1684
+      },
+      {
+        "entity": "blade trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1901
+      },
+      {
+        "entity": "blunt trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 146
+      },
+      {
+        "entity": "blunt trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1416
+      },
+      {
+        "entity": "blunt trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1985
+      },
+      {
+        "entity": "pointed trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1933
+      },
+      {
+        "entity": "pressure side",
+        "type": "Structure",
+        "category": "pressure_side",
+        "position": 467
+      },
+      {
+        "entity": "pressure side",
+        "type": "Structure",
+        "category": "pressure_side",
+        "position": 2137
+      },
+      {
+        "entity": "suction side",
+        "type": "Structure",
+        "category": "suction_side",
+        "position": 485
+      },
+      {
+        "entity": "suction side",
+        "type": "Structure",
+        "category": "suction_side",
+        "position": 1781
+      },
+      {
+        "entity": "suction side",
+        "type": "Structure",
+        "category": "suction_side",
+        "position": 2120
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 38
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 119
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 221
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 572
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 715
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 869
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 1653
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 1723
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 1812
+      },
+      {
+        "entity": "serration",
+        "type": "Structure",
+        "category": "serration",
+        "position": 2033
+      },
+      {
+        "entity": "serrated edge",
+        "type": "Structure",
+        "category": "serration",
+        "position": 342
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 38
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 119
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 221
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 572
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 715
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 869
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 1653
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 1723
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 1812
+      },
+      {
+        "entity": "serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 2033
+      },
+      {
+        "entity": "trailing edge serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 24
+      },
+      {
+        "entity": "trailing edge serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 105
+      },
+      {
+        "entity": "trailing edge serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 558
+      },
+      {
+        "entity": "trailing edge serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 701
+      },
+      {
+        "entity": "trailing edge serrations",
+        "type": "Structure",
+        "category": "serration",
+        "position": 1709
+      },
+      {
+        "entity": "composite material",
+        "type": "Structure",
+        "category": "composite",
+        "position": 2247
+      },
+      {
+        "entity": "fibre composite",
+        "type": "Structure",
+        "category": "composite",
+        "position": 1047
+      },
+      {
+        "entity": "fibre composite",
+        "type": "Structure",
+        "category": "composite",
+        "position": 2241
+      },
+      {
+        "entity": "foam core",
+        "type": "Structure",
+        "category": "foam_core",
+        "position": 2069
+      },
+      {
+        "entity": "laminate",
+        "type": "Structure",
+        "category": "laminate",
+        "position": 1063
+      },
+      {
+        "entity": "bonding line",
+        "type": "Structure",
+        "category": "bonding_line",
+        "position": 2199
+      }
+    ],
+    "L": [
+      {
+        "entity": "mid-span region",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 763
+      },
+      {
+        "entity": "inboard section",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 2012
+      },
+      {
+        "entity": "outboard section",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 1962
+      },
+      {
+        "entity": "along the span",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 739
+      },
+      {
+        "entity": "at the trailing edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 933
+      },
+      {
+        "entity": "at the trailing edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 1746
+      },
+      {
+        "entity": "trailing edge region",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 1753
+      },
+      {
+        "entity": "trailing edge region",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 2094
+      },
+      {
+        "entity": "near the trailing edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 288
+      },
+      {
+        "entity": "near the trailing edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 1873
+      },
+      {
+        "entity": "on the pressure side",
+        "type": "Location",
+        "category": "sides",
+        "position": 460
+      },
+      {
+        "entity": "on the suction side",
+        "type": "Location",
+        "category": "sides",
+        "position": 1774
+      },
+      {
+        "entity": "suction side of the blade",
+        "type": "Location",
+        "category": "sides",
+        "position": 1781
+      }
+    ]
+  },
+  "stats": {
+    "total_entities": 150,
+    "R_count": 24,
+    "F_count": 20,
+    "S_count": 93,
+    "L_count": 13
+  },
+  "text_sources": {
+    "title": 76,
+    "abstract": 421,
+    "claims": 660,
+    "description": 1148
+  }
+}

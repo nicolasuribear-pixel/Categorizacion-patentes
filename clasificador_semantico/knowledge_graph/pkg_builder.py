@@ -10,6 +10,32 @@ import networkx as nx
 import pickle
 from collections import defaultdict
 
+from core.domain_dictionaries import TARGET_REQUIREMENTS, STRUCTURES
+
+# Afinidad semántica: qué categorías de S "satisfacen" cada categoría de R.
+# Se usa para crear aristas 'fulfills' (R → S) independientemente de posición.
+REQUIREMENT_STRUCTURE_AFFINITY = {
+    "aerodynamic_efficiency": {
+        "airfoil", "vortex_generator", "gurney_flap", "winglet",
+        "serration", "flap", "blade_element", "leading_edge", "trailing_edge"
+    },
+    "structural_strength": {
+        "spar", "shear_web", "carbon_fiber", "composite",
+        "laminate", "reinforcement", "sandwich"
+    },
+    "weight": {"balsa", "foam_core", "prepreg", "composite"},
+    "noise": {"serration", "vortex_generator", "trailing_edge", "airfoil"},
+    "ice": {"de_icing_system", "heating_element", "protective_coating"},
+    "lightning": {"lightning_receptor"},
+    "fatigue": {"spar", "laminate", "adhesive", "bonding_line", "shear_web"},
+    "erosion": {"protective_coating", "leading_edge"},
+    "flow_control": {
+        "vortex_generator", "serration", "leading_edge", "airfoil", "slot"
+    },
+    "loads": {"spar", "shear_web", "reinforcement", "root", "flange"},
+    "manufacturing_cost": {"adhesive", "prepreg", "laminate", "bonding_line"},
+}
+
 
 class PKGBuilder:
     """Constructor de Patent Knowledge Graph"""
@@ -37,6 +63,18 @@ class PKGBuilder:
         node_id = f"{patent_id}_{entity_type}_{self.entity_counter[entity_text]}"
         self.entity_counter[entity_text] += 1
 
+        # Atributos enriquecidos según el tipo de entidad (del extractor RFSL refactorizado)
+        extra_attrs = {}
+        if entity_type == 'R':
+            extra_attrs['action'] = entity.get('action', '')
+            extra_attrs['method'] = entity.get('method', '')
+        elif entity_type == 'F':
+            extra_attrs['verb'] = entity.get('verb', '')
+            extra_attrs['noun'] = entity.get('noun', '')
+            extra_attrs['method'] = entity.get('method', '')
+        else:
+            extra_attrs['method'] = entity.get('method', '')
+
         # Añadir nodo con atributos
         self.graph.add_node(
             node_id,
@@ -44,7 +82,8 @@ class PKGBuilder:
             type=entity_type,
             patent_id=patent_id,
             category=entity.get('category', ''),
-            position=entity.get('position', -1)
+            position=entity.get('position', -1),
+            **extra_attrs
         )
 
         return node_id
@@ -110,6 +149,29 @@ class PKGBuilder:
                 if abs(f_node['position'] - l_node['position']) < 80:
                     relations.append((f_node['id'], l_node['id'], 'occurs_at'))
 
+        # REGLA 5 (semántica): Requirements (R) → Structures (S) por afinidad de categoría
+        relations += self.extract_semantic_relations(nodes)
+
+        return relations
+
+    def extract_semantic_relations(self, nodes):
+        """
+        Crea aristas 'fulfills' (R → S) basadas en afinidad de categorías,
+        independientemente de la proximidad en el texto.
+
+        Una estructura satisface un requisito cuando su categoría aparece
+        en REQUIREMENT_STRUCTURE_AFFINITY[r_action].
+        """
+        relations = []
+        for r_node in nodes['R']:
+            r_action = self.graph.nodes[r_node['id']].get('action', '')
+            if not r_action or r_action not in REQUIREMENT_STRUCTURE_AFFINITY:
+                continue
+            compatible = REQUIREMENT_STRUCTURE_AFFINITY[r_action]
+            for s_node in nodes['S']:
+                s_cat = self.graph.nodes[s_node['id']].get('category', '')
+                if s_cat in compatible:
+                    relations.append((r_node['id'], s_node['id'], 'fulfills'))
         return relations
 
     def build_graph_from_rfsl(self, rfsl_file):
@@ -202,6 +264,15 @@ class PKGBuilder:
         for source, target, attrs in self.graph.edges(data=True):
             stats['edges_by_relation'][attrs['relation']] += 1
 
+        # Categorías más frecuentes en S y R
+        stats['top_s_categories'] = defaultdict(int)
+        stats['top_r_actions'] = defaultdict(int)
+        for node_id, attrs in self.graph.nodes(data=True):
+            if attrs.get('type') == 'S' and attrs.get('category'):
+                stats['top_s_categories'][attrs['category']] += 1
+            if attrs.get('type') == 'R' and attrs.get('action'):
+                stats['top_r_actions'][attrs['action']] += 1
+
         return stats
 
 
@@ -267,6 +338,17 @@ def build_pkg_from_all_patents():
     print(f"\nAristas totales: {global_stats['total_edges']}")
     for relation, count in global_stats['edges_by_relation'].items():
         print(f"   • {relation}: {count}")
+
+    if global_stats['top_s_categories']:
+        print(f"\nTop categorías de Estructuras (S):")
+        for cat, cnt in sorted(global_stats['top_s_categories'].items(),
+                               key=lambda x: -x[1])[:10]:
+            print(f"   • {cat}: {cnt}")
+    if global_stats['top_r_actions']:
+        print(f"\nCategorías de Requisitos (R):")
+        for act, cnt in sorted(global_stats['top_r_actions'].items(),
+                               key=lambda x: -x[1]):
+            print(f"   • {act}: {cnt}")
 
     # Calcular densidad del grafo
     n = global_stats['total_nodes']

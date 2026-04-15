@@ -1,0 +1,886 @@
+{
+  "patent_id": "US8834130B2",
+  "entities": {
+    "R": [
+      {
+        "entity": "increase structural load due",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 1262,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce rain erosion",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1139,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce aerodynamic performance and",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1226,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce aerodynamic efficiency",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1417,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce leading edge erosion",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 2172,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "prevent ice accretion",
+        "type": "Requirement",
+        "action": "prevent",
+        "position": 200,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "prevent leading edge erosion",
+        "type": "Requirement",
+        "action": "prevent",
+        "position": 387,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "prevent ice accretion and",
+        "type": "Requirement",
+        "action": "prevent",
+        "position": 1511,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "mitigate ice formation",
+        "type": "Requirement",
+        "action": "mitigate",
+        "position": 321,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "mitigate ice formation and",
+        "type": "Requirement",
+        "action": "mitigate",
+        "position": 1587,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "eliminate icing",
+        "type": "Requirement",
+        "action": "eliminate",
+        "position": 504,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "eliminate icing on the",
+        "type": "Requirement",
+        "action": "eliminate",
+        "position": 1537,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "prevent ice accretion and eliminate icing on the blade surface",
+        "type": "Requirement",
+        "action": "intro_phrase",
+        "position": 1477,
+        "method": "intro_pattern"
+      },
+      {
+        "entity": "mitigate ice formation and protect against icing",
+        "type": "Requirement",
+        "action": "intro_phrase",
+        "position": 1575,
+        "method": "intro_pattern"
+      },
+      {
+        "entity": "aerodynamic efficiency",
+        "type": "Requirement",
+        "action": "aerodynamic_efficiency",
+        "position": 1425,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "aerodynamic performance",
+        "type": "Requirement",
+        "action": "aerodynamic_efficiency",
+        "position": 1234,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "ice accretion",
+        "type": "Requirement",
+        "action": "ice",
+        "position": 208,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "icing",
+        "type": "Requirement",
+        "action": "ice",
+        "position": 22,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "ice formation",
+        "type": "Requirement",
+        "action": "ice",
+        "position": 331,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "ice buildup",
+        "type": "Requirement",
+        "action": "ice",
+        "position": 1295,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "lightning strike",
+        "type": "Requirement",
+        "action": "lightning",
+        "position": 1003,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "lightning protection",
+        "type": "Requirement",
+        "action": "lightning",
+        "position": 934,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "fatigue damage",
+        "type": "Requirement",
+        "action": "fatigue",
+        "position": 2359,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "leading edge erosion",
+        "type": "Requirement",
+        "action": "erosion",
+        "position": 396,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "rain erosion",
+        "type": "Requirement",
+        "action": "erosion",
+        "position": 1147,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "structural load",
+        "type": "Requirement",
+        "action": "loads",
+        "position": 1272,
+        "method": "target_keyword"
+      }
+    ],
+    "F": [
+      {
+        "entity": "protect against icing",
+        "type": "Function",
+        "verb": "protect",
+        "noun": "icing",
+        "position": 1614,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "protect against lightning strike",
+        "type": "Function",
+        "verb": "protect",
+        "noun": "lightning strike",
+        "position": 987,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevent ice",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "ice",
+        "position": 200,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevent ice",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "ice",
+        "position": 668,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevent ice",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "ice",
+        "position": 1511,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevent ice accretion",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "ice accretion",
+        "position": 200,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevent ice accretion",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "ice accretion",
+        "position": 668,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevent ice accretion",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "ice accretion",
+        "position": 1511,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevents leading edge erosion",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "erosion",
+        "position": 387,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevents leading edge erosion",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "erosion",
+        "position": 1105,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "mitigates ice",
+        "type": "Function",
+        "verb": "mitigate",
+        "noun": "ice",
+        "position": 321,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "mitigate ice",
+        "type": "Function",
+        "verb": "mitigate",
+        "noun": "ice",
+        "position": 831,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "mitigate ice",
+        "type": "Function",
+        "verb": "mitigate",
+        "noun": "ice",
+        "position": 1587,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "eliminate icing",
+        "type": "Function",
+        "verb": "eliminate",
+        "noun": "icing",
+        "position": 504,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "eliminate icing",
+        "type": "Function",
+        "verb": "eliminate",
+        "noun": "icing",
+        "position": 1537,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increases structural load",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "structural load",
+        "position": 1262,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduces aerodynamic efficiency",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "aerodynamic efficiency",
+        "position": 1417,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduces aerodynamic performance",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "aerodynamic performance",
+        "position": 1226,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduces rain erosion",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "erosion",
+        "position": 1139,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce leading edge erosion",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "erosion",
+        "position": 2172,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "detects ice",
+        "type": "Function",
+        "verb": "detect",
+        "noun": "ice",
+        "position": 2244,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "detects ice accretion",
+        "type": "Function",
+        "verb": "detect",
+        "noun": "ice accretion",
+        "position": 2244,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "monitors ice",
+        "type": "Function",
+        "verb": "monitor",
+        "noun": "ice",
+        "position": 444,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "monitors ice accretion",
+        "type": "Function",
+        "verb": "monitor",
+        "noun": "ice accretion",
+        "position": 444,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "monitors icing",
+        "type": "Function",
+        "verb": "monitor",
+        "noun": "icing",
+        "position": 2270,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "heating element and ice",
+        "type": "Function",
+        "verb": "heat",
+        "noun": "ice",
+        "position": 40,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "heating element to eliminate icing",
+        "type": "Function",
+        "verb": "heat",
+        "noun": "icing",
+        "position": 485,
+        "method": "verb+noun"
+      }
+    ],
+    "S": [
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 0
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 77
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 523
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 695
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 859
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1025
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1206
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1352
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 5
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 82
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 528
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 700
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 864
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1030
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1211
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1357
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 163
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 626
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 1865
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 2299
+      },
+      {
+        "entity": "blade root",
+        "type": "Structure",
+        "category": "root",
+        "position": 2074
+      },
+      {
+        "entity": "blade tip",
+        "type": "Structure",
+        "category": "tip",
+        "position": 1953
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 184
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 374
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 396
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 645
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 1092
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 1114
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 1372
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 1676
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 1809
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 2159
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 2179
+      },
+      {
+        "entity": "pressure side",
+        "type": "Structure",
+        "category": "pressure_side",
+        "position": 784
+      },
+      {
+        "entity": "suction side",
+        "type": "Structure",
+        "category": "suction_side",
+        "position": 802
+      },
+      {
+        "entity": "rotor hub",
+        "type": "Structure",
+        "category": "hub",
+        "position": 2089
+      },
+      {
+        "entity": "lightning receptor",
+        "type": "Structure",
+        "category": "lightning_receptor",
+        "position": 911
+      },
+      {
+        "entity": "lightning receptor",
+        "type": "Structure",
+        "category": "lightning_receptor",
+        "position": 1914
+      },
+      {
+        "entity": "lightning protection system",
+        "type": "Structure",
+        "category": "lightning_receptor",
+        "position": 934
+      },
+      {
+        "entity": "lightning protection system",
+        "type": "Structure",
+        "category": "lightning_receptor",
+        "position": 2033
+      },
+      {
+        "entity": "down conductor",
+        "type": "Structure",
+        "category": "lightning_receptor",
+        "position": 969
+      },
+      {
+        "entity": "down conductor",
+        "type": "Structure",
+        "category": "lightning_receptor",
+        "position": 2013
+      },
+      {
+        "entity": "de-icing system",
+        "type": "Structure",
+        "category": "de_icing_system",
+        "position": 19
+      },
+      {
+        "entity": "de-icing system",
+        "type": "Structure",
+        "category": "de_icing_system",
+        "position": 103
+      },
+      {
+        "entity": "de-icing system",
+        "type": "Structure",
+        "category": "de_icing_system",
+        "position": 555
+      },
+      {
+        "entity": "de-icing system",
+        "type": "Structure",
+        "category": "de_icing_system",
+        "position": 738
+      },
+      {
+        "entity": "de-icing system",
+        "type": "Structure",
+        "category": "de_icing_system",
+        "position": 1694
+      },
+      {
+        "entity": "anti-icing system",
+        "type": "Structure",
+        "category": "de_icing_system",
+        "position": 1723
+      },
+      {
+        "entity": "ice protection system",
+        "type": "Structure",
+        "category": "de_icing_system",
+        "position": 422
+      },
+      {
+        "entity": "ice protection system",
+        "type": "Structure",
+        "category": "de_icing_system",
+        "position": 2222
+      },
+      {
+        "entity": "heating element",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 40
+      },
+      {
+        "entity": "heating element",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 130
+      },
+      {
+        "entity": "heating element",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 227
+      },
+      {
+        "entity": "heating element",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 485
+      },
+      {
+        "entity": "heating element",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 594
+      },
+      {
+        "entity": "heating element",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 1637
+      },
+      {
+        "entity": "heating element",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 1827
+      },
+      {
+        "entity": "heater mat",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 275
+      },
+      {
+        "entity": "heater mat",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 766
+      },
+      {
+        "entity": "electrical heater",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 264
+      },
+      {
+        "entity": "electrical heater",
+        "type": "Structure",
+        "category": "heating_element",
+        "position": 1746
+      },
+      {
+        "entity": "protective coating",
+        "type": "Structure",
+        "category": "protective_coating",
+        "position": 348
+      },
+      {
+        "entity": "protective coating",
+        "type": "Structure",
+        "category": "protective_coating",
+        "position": 1066
+      },
+      {
+        "entity": "protective coating",
+        "type": "Structure",
+        "category": "protective_coating",
+        "position": 2133
+      },
+      {
+        "entity": "erosion protection shield",
+        "type": "Structure",
+        "category": "protective_coating",
+        "position": 2103
+      },
+      {
+        "entity": "fiberglass",
+        "type": "Structure",
+        "category": "fiberglass",
+        "position": 2321
+      },
+      {
+        "entity": "epoxy resin",
+        "type": "Structure",
+        "category": "epoxy_resin",
+        "position": 2337
+      },
+      {
+        "entity": "epoxy",
+        "type": "Structure",
+        "category": "epoxy_resin",
+        "position": 2337
+      }
+    ],
+    "L": [
+      {
+        "entity": "at the leading edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 638
+      },
+      {
+        "entity": "at the leading edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 2152
+      },
+      {
+        "entity": "leading edge region",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 645
+      },
+      {
+        "entity": "near the leading edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 175
+      },
+      {
+        "entity": "near the leading edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 1667
+      },
+      {
+        "entity": "on the pressure side",
+        "type": "Location",
+        "category": "sides",
+        "position": 777
+      },
+      {
+        "entity": "suction side of the blade",
+        "type": "Location",
+        "category": "sides",
+        "position": 802
+      },
+      {
+        "entity": "inner surface of the blade",
+        "type": "Location",
+        "category": "depth",
+        "position": 1884
+      },
+      {
+        "entity": "within the blade",
+        "type": "Location",
+        "category": "depth",
+        "position": 1854
+      }
+    ]
+  },
+  "stats": {
+    "total_entities": 130,
+    "R_count": 26,
+    "F_count": 27,
+    "S_count": 68,
+    "L_count": 9
+  },
+  "text_sources": {
+    "title": 74,
+    "abstract": 445,
+    "claims": 639,
+    "description": 1213
+  }
+}

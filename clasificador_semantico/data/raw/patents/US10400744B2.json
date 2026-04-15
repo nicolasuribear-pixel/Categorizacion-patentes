@@ -1,0 +1,16 @@
+{
+  "patent_id": "US10400744B2",
+  "title": "Lightweight wind turbine blade using prepreg and balsa sandwich structure",
+  "abstract": "A wind turbine blade using pre-impregnated carbon fibre composite prepreg and a balsa wood core sandwich structure to reduce blade weight and manufacturing cost. The blade shell is manufactured from fibre-reinforced polymer with a foam core in the transition area between the root section and the airfoil area. The composite material structure improves structural strength and fatigue life while minimizing blade mass.",
+  "claims": [
+    "A wind turbine blade comprising a blade shell made of fibre composite laminate with carbon fibre reinforced prepreg and a balsa core sandwich structure to reduce blade weight.",
+    "The wind turbine blade of claim 1, wherein the laminate structure in the spar cap region uses carbon fibre reinforced polymer to increase blade stiffness and resist bending moment.",
+    "The wind turbine blade of claim 1, wherein the transition area between the blade root and airfoil area uses a foam core sandwich panel to minimize manufacturing cost.",
+    "The wind turbine blade of claim 1, wherein structural adhesive and bonding agent bond the blade shell halves along a bonding line to maintain structural integrity."
+  ],
+  "description": "BACKGROUND OF THE INVENTION The weight of wind turbine blades is a critical factor in wind turbine performance. Heavy blades increase fatigue load and manufacturing cost. The blade mass affects the structural load on the pitch bearing and rotor hub. DISCLOSURE OF THE INVENTION In order to reduce blade weight and minimize manufacturing cost, pre-impregnated prepreg carbon fibre composite is used for the spar caps and laminate structure. The sandwich structure uses balsa wood as core material to reduce blade mass while maintaining structural strength. A polymer foam core is used in the transition area and trailing edge region of the blade shell. The fibre composite material provides high strength-to-weight ratio to withstand fatigue load and gust load. The laminate composite shell is bonded with structural adhesive along the bonding line. The blade stiffness is enhanced by carbon fibre reinforced polymer in the spar cap region. The root section uses fiberglass with epoxy resin to connect to the root flange and pitch bearing assembly.",
+  "ipc_codes": [
+    "F03D1/06",
+    "B29C70/00"
+  ]
+}

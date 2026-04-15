@@ -1,0 +1,968 @@
+{
+  "patent_id": "US8550777B2",
+  "entities": {
+    "R": [
+      {
+        "entity": "improve structural strength and",
+        "type": "Requirement",
+        "action": "improve",
+        "position": 1711,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "increase blade stiffness and",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 282,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "increase structural strength",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 1800,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce blade weight",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 311,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce blade weight and",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1776,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "minimize blade mass while",
+        "type": "Requirement",
+        "action": "minimize",
+        "position": 529,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "minimize blade mass",
+        "type": "Requirement",
+        "action": "minimize",
+        "position": 2310,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "improve structural strength and reduce blade weight",
+        "type": "Requirement",
+        "action": "intro_phrase",
+        "position": 1677,
+        "method": "intro_pattern"
+      },
+      {
+        "entity": "reduce blade weight and increase structural strength",
+        "type": "Requirement",
+        "action": "intro_phrase",
+        "position": 1764,
+        "method": "intro_pattern"
+      },
+      {
+        "entity": "structural strength",
+        "type": "Requirement",
+        "action": "structural_strength",
+        "position": 1719,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "blade stiffness",
+        "type": "Requirement",
+        "action": "structural_strength",
+        "position": 291,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "structural integrity",
+        "type": "Requirement",
+        "action": "structural_strength",
+        "position": 567,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "blade weight",
+        "type": "Requirement",
+        "action": "weight",
+        "position": 318,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "blade mass",
+        "type": "Requirement",
+        "action": "weight",
+        "position": 538,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "leading edge erosion",
+        "type": "Requirement",
+        "action": "erosion",
+        "position": 2488,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "fatigue load",
+        "type": "Requirement",
+        "action": "loads",
+        "position": 865,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "aerodynamic load",
+        "type": "Requirement",
+        "action": "loads",
+        "position": 383,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "structural load",
+        "type": "Requirement",
+        "action": "loads",
+        "position": 404,
+        "method": "target_keyword"
+      }
+    ],
+    "F": [
+      {
+        "entity": "resist bending moment and fatigue load",
+        "type": "Function",
+        "verb": "resist",
+        "noun": "fatigue load",
+        "position": 839,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "resist bending moment",
+        "type": "Function",
+        "verb": "resist",
+        "noun": "bending moment",
+        "position": 839,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "resist bending moment",
+        "type": "Function",
+        "verb": "resist",
+        "noun": "bending moment",
+        "position": 1569,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "protect against leading edge erosion",
+        "type": "Function",
+        "verb": "protect",
+        "noun": "erosion",
+        "position": 2472,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase blade stiffness",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "blade stiffness",
+        "position": 282,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "configured to resist bending moment",
+        "type": "Function",
+        "verb": "functional_phrase",
+        "noun": "resist bending moment",
+        "position": 825,
+        "method": "phrase_pattern"
+      }
+    ],
+    "S": [
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 0
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 91
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 591
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 883
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1010
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1160
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1390
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 5
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 96
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 596
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 888
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1015
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1165
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1395
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 24
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 141
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 173
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 183
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 214
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 359
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 672
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 701
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 788
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 811
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1287
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1542
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1834
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1908
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 2070
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 2172
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 2201
+      },
+      {
+        "entity": "main spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 168
+      },
+      {
+        "entity": "main spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 667
+      },
+      {
+        "entity": "main spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1903
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 24
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 183
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 214
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 359
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 701
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 788
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 811
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1287
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1542
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1834
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 2070
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 2172
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 2201
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 183
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 214
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 359
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 701
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 788
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 811
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1287
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1542
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1834
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 2070
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 123
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 624
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 2221
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 2400
+      },
+      {
+        "entity": "outer shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 2433
+      },
+      {
+        "entity": "shear web",
+        "type": "Structure",
+        "category": "shear_web",
+        "position": 37
+      },
+      {
+        "entity": "shear web",
+        "type": "Structure",
+        "category": "shear_web",
+        "position": 199
+      },
+      {
+        "entity": "shear web",
+        "type": "Structure",
+        "category": "shear_web",
+        "position": 336
+      },
+      {
+        "entity": "shear web",
+        "type": "Structure",
+        "category": "shear_web",
+        "position": 763
+      },
+      {
+        "entity": "shear web",
+        "type": "Structure",
+        "category": "shear_web",
+        "position": 926
+      },
+      {
+        "entity": "shear web",
+        "type": "Structure",
+        "category": "shear_web",
+        "position": 1304
+      },
+      {
+        "entity": "shear web",
+        "type": "Structure",
+        "category": "shear_web",
+        "position": 1556
+      },
+      {
+        "entity": "shear web",
+        "type": "Structure",
+        "category": "shear_web",
+        "position": 2135
+      },
+      {
+        "entity": "sandwich structure",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 463
+      },
+      {
+        "entity": "sandwich structure",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 948
+      },
+      {
+        "entity": "sandwich structure",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 2236
+      },
+      {
+        "entity": "blade root",
+        "type": "Structure",
+        "category": "root",
+        "position": 447
+      },
+      {
+        "entity": "blade root",
+        "type": "Structure",
+        "category": "root",
+        "position": 1053
+      },
+      {
+        "entity": "blade root",
+        "type": "Structure",
+        "category": "root",
+        "position": 1637
+      },
+      {
+        "entity": "blade root",
+        "type": "Structure",
+        "category": "root",
+        "position": 1930
+      },
+      {
+        "entity": "blade root",
+        "type": "Structure",
+        "category": "root",
+        "position": 1983
+      },
+      {
+        "entity": "root region",
+        "type": "Structure",
+        "category": "root",
+        "position": 1966
+      },
+      {
+        "entity": "blade tip",
+        "type": "Structure",
+        "category": "tip",
+        "position": 1620
+      },
+      {
+        "entity": "blade tip",
+        "type": "Structure",
+        "category": "tip",
+        "position": 1948
+      },
+      {
+        "entity": "tip region",
+        "type": "Structure",
+        "category": "tip",
+        "position": 429
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 2488
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 489
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 2286
+      },
+      {
+        "entity": "pressure side",
+        "type": "Structure",
+        "category": "pressure_side",
+        "position": 2158
+      },
+      {
+        "entity": "suction side",
+        "type": "Structure",
+        "category": "suction_side",
+        "position": 2188
+      },
+      {
+        "entity": "pitch bearing",
+        "type": "Structure",
+        "category": "pitch_bearing",
+        "position": 2051
+      },
+      {
+        "entity": "rotor hub",
+        "type": "Structure",
+        "category": "hub",
+        "position": 1121
+      },
+      {
+        "entity": "fiberglass",
+        "type": "Structure",
+        "category": "fiberglass",
+        "position": 2422
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 55
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 238
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 719
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 1210
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 1858
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 2087
+      },
+      {
+        "entity": "carbon fibre reinforced",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 55
+      },
+      {
+        "entity": "carbon fibre reinforced",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 238
+      },
+      {
+        "entity": "carbon fibre reinforced",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 719
+      },
+      {
+        "entity": "carbon fibre reinforced",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 1210
+      },
+      {
+        "entity": "carbon fibre reinforced",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 1858
+      },
+      {
+        "entity": "carbon fibre reinforced",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 2087
+      },
+      {
+        "entity": "epoxy resin",
+        "type": "Structure",
+        "category": "epoxy_resin",
+        "position": 2450
+      },
+      {
+        "entity": "epoxy",
+        "type": "Structure",
+        "category": "epoxy_resin",
+        "position": 2450
+      },
+      {
+        "entity": "foam core",
+        "type": "Structure",
+        "category": "foam_core",
+        "position": 972
+      },
+      {
+        "entity": "balsa core",
+        "type": "Structure",
+        "category": "balsa",
+        "position": 515
+      },
+      {
+        "entity": "balsa core",
+        "type": "Structure",
+        "category": "balsa",
+        "position": 2260
+      },
+      {
+        "entity": "prepreg",
+        "type": "Structure",
+        "category": "prepreg",
+        "position": 1234
+      },
+      {
+        "entity": "prepreg",
+        "type": "Structure",
+        "category": "prepreg",
+        "position": 1890
+      },
+      {
+        "entity": "laminate",
+        "type": "Structure",
+        "category": "laminate",
+        "position": 270
+      },
+      {
+        "entity": "laminate",
+        "type": "Structure",
+        "category": "laminate",
+        "position": 751
+      },
+      {
+        "entity": "laminate",
+        "type": "Structure",
+        "category": "laminate",
+        "position": 1265
+      },
+      {
+        "entity": "laminate",
+        "type": "Structure",
+        "category": "laminate",
+        "position": 2111
+      },
+      {
+        "entity": "root bolt",
+        "type": "Structure",
+        "category": "bolt",
+        "position": 1074
+      },
+      {
+        "entity": "root bolt",
+        "type": "Structure",
+        "category": "bolt",
+        "position": 2022
+      },
+      {
+        "entity": "structural adhesive",
+        "type": "Structure",
+        "category": "adhesive",
+        "position": 1320
+      },
+      {
+        "entity": "structural adhesive",
+        "type": "Structure",
+        "category": "adhesive",
+        "position": 2331
+      },
+      {
+        "entity": "adhesive bond",
+        "type": "Structure",
+        "category": "adhesive",
+        "position": 2342
+      },
+      {
+        "entity": "root flange",
+        "type": "Structure",
+        "category": "flange",
+        "position": 1091
+      },
+      {
+        "entity": "root flange",
+        "type": "Structure",
+        "category": "flange",
+        "position": 2006
+      },
+      {
+        "entity": "bonding line",
+        "type": "Structure",
+        "category": "bonding_line",
+        "position": 1348
+      },
+      {
+        "entity": "bonding line",
+        "type": "Structure",
+        "category": "bonding_line",
+        "position": 2382
+      }
+    ],
+    "L": [
+      {
+        "entity": "at the root",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 1959
+      },
+      {
+        "entity": "root region",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 1966
+      },
+      {
+        "entity": "tip region",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 429
+      },
+      {
+        "entity": "trailing edge region",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 489
+      },
+      {
+        "entity": "trailing edge region",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 2286
+      },
+      {
+        "entity": "within the blade",
+        "type": "Location",
+        "category": "depth",
+        "position": 2210
+      }
+    ]
+  },
+  "stats": {
+    "total_entities": 152,
+    "R_count": 18,
+    "F_count": 6,
+    "S_count": 122,
+    "L_count": 6
+  },
+  "text_sources": {
+    "title": 88,
+    "abstract": 499,
+    "claims": 772,
+    "description": 1147
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "patent_id": "US8834130B2",
+  "title": "Wind turbine blade de-icing system with heating element and ice protection",
+  "abstract": "A wind turbine blade with a de-icing system comprising heating elements embedded in the blade shell near the leading edge to prevent ice accretion. The heating elements are connected to an electrical heater mat that de-ices the blade surface and mitigates ice formation. A protective coating on the leading edge prevents leading edge erosion. The ice protection system monitors ice accretion and activates the heating element to eliminate icing.",
+  "claims": [
+    "A wind turbine blade comprising a de-icing system including at least one heating element embedded in the blade shell at the leading edge region to prevent ice accretion.",
+    "The wind turbine blade of claim 1, wherein the de-icing system comprises a heater mat on the pressure side and suction side of the blade to mitigate ice formation.",
+    "The wind turbine blade of claim 1, further comprising a lightning receptor and lightning protection system with a down conductor to protect against lightning strike.",
+    "The wind turbine blade of claim 1, wherein a protective coating on the leading edge prevents leading edge erosion and reduces rain erosion."
+  ],
+  "description": "BACKGROUND OF THE INVENTION Ice accretion on wind turbine blades reduces aerodynamic performance and increases structural load due to ice buildup. Lightning strike poses a safety risk to the wind turbine blade. Leading edge erosion from rain and particles reduces aerodynamic efficiency. DISCLOSURE OF THE INVENTION The object of the invention is to prevent ice accretion and eliminate icing on the blade surface. In order to mitigate ice formation and protect against icing, heating elements are embedded near the leading edge. The de-icing system comprises an anti-icing system with electrical heater that heats the blade surface and de-ices the leading edge. The heating element is located within the blade shell on the inner surface of the blade. A lightning receptor is installed at the blade tip to capture lightning and direct current through a down conductor. The lightning protection system protects the blade root and rotor hub. An erosion protection shield and protective coating at the leading edge reduce leading edge erosion and rain erosion. The ice protection system detects ice accretion and monitors icing severity. The blade shell comprises fiberglass with epoxy resin to resist fatigue damage.",
+  "ipc_codes": [
+    "F03D80/40",
+    "F03D80/30"
+  ]
+}

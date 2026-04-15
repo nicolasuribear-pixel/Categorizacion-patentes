@@ -1,0 +1,16 @@
+{
+  "patent_id": "US8936435B2",
+  "title": "Wind turbine blade with vortex generators to control boundary layer separation",
+  "abstract": "A wind turbine blade having an airfoil profile with vortex generators mounted on the suction side of the blade to prevent flow separation and improve aerodynamic efficiency. The vortex generators are arranged in the inboard section near the leading edge to reduce boundary layer separation and increase lift-to-drag ratio. A gurney flap is attached at the trailing edge to improve aerodynamic performance and increase power output.",
+  "claims": [
+    "A wind turbine blade comprising an airfoil with a leading edge and trailing edge, wherein vortex generators are mounted on the suction side at the leading edge region in the inboard section of the blade, the vortex generators configured to reduce flow separation and improve aerodynamic efficiency.",
+    "The wind turbine blade of claim 1, wherein the vortex generators are arranged along the span in the mid-span region to control boundary layer separation.",
+    "The wind turbine blade of claim 1, further comprising a gurney flap at the trailing edge to increase lift and improve lift-to-drag ratio.",
+    "The wind turbine blade of claim 1, wherein the blade has an airfoil profile with chord length and twist distribution optimized to maximize power output."
+  ],
+  "description": "BACKGROUND OF THE INVENTION Flow separation on wind turbine rotor blades reduces aerodynamic efficiency and power output. The boundary layer on the suction side of the blade is prone to separation near the leading edge, particularly in the inboard section where the angle of attack is high. DISCLOSURE OF THE INVENTION The object of the invention is to improve aerodynamic efficiency and increase power output. In order to reduce flow separation and improve aerodynamic performance, vortex generators are mounted on the suction side surface. The vortex generators generate vortices in the boundary layer to delay flow separation. The airfoil profile is designed to optimize lift-to-drag ratio and reduce aerodynamic drag. The gurney flap at the trailing edge increases aerodynamic lift. The blade tip comprises a winglet to reduce tip vortex and improve aerodynamic efficiency. In the outboard section, the blade has an airfoil region optimized for high lift coefficient. The pitch system controls blade pitch angle to regulate rotor torque and aerodynamic load. The pitch bearing connects the wind turbine blade to the rotor hub.",
+  "ipc_codes": [
+    "F03D1/06",
+    "F15D1/10"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "patent_id": "US8932024B2",
+  "title": "Wind turbine blade with trailing edge serrations to reduce aerodynamic noise",
+  "abstract": "A wind turbine blade having trailing edge serrations attached to the blunt trailing edge to reduce aerodynamic noise and acoustic emission. The serrations are shaped to minimize turbulence in the boundary layer near the trailing edge and reduce noise emission. The serrated edge disrupts the trailing edge vortices and decreases aerodynamic noise produced at the blade trailing edge on the pressure side and suction side.",
+  "claims": [
+    "A wind turbine blade comprising a blade trailing edge with trailing edge serrations configured to reduce aerodynamic noise and minimize acoustic emission.",
+    "The wind turbine blade of claim 1, wherein the trailing edge serrations are arranged along the span from the mid-span region to the blade tip to reduce noise emission.",
+    "The wind turbine blade of claim 1, wherein the serrations have a geometry optimized to prevent flow separation at the trailing edge and reduce turbulence.",
+    "The wind turbine blade of claim 1, wherein the blade shell is made of fibre composite laminate with sandwich panel structure to reduce blade weight and increase structural integrity."
+  ],
+  "description": "BACKGROUND OF THE INVENTION Aerodynamic noise from wind turbine blades is a significant concern for wind energy development near populated areas. The trailing edge of the wind turbine blade generates acoustic emission as the boundary layer passes over the blunt trailing edge. DISCLOSURE OF THE INVENTION The object of the invention is to reduce aerodynamic noise and minimize acoustic emission from the wind turbine blade. In order to reduce noise emission and eliminate trailing edge noise, serrations are attached to the blade trailing edge. The trailing edge serrations are located at the trailing edge region on the suction side of the blade. The serrations reduce turbulence intensity in the boundary layer near the trailing edge. The blade trailing edge comprises a pointed trailing edge in the outboard section and a blunt trailing edge in the inboard section with serrations. The sandwich panel with foam core is used in the trailing edge region. The suction side and pressure side blade shells are bonded along the trailing edge bonding line. The wind turbine blade uses fibre composite material to minimize blade mass and fatigue damage.",
+  "ipc_codes": [
+    "F03D1/06",
+    "G10K11/16"
+  ]
+}
