@@ -1,0 +1,16 @@
+{
+  "patent_id": "US8550777B2",
+  "title": "Wind turbine blade with spar cap and shear web made of carbon fibre reinforced composite",
+  "abstract": "A wind turbine blade comprising a blade shell and a spar structure including a main spar with spar caps and a shear web. The spar caps are made from carbon fibre reinforced polymer laminate to increase blade stiffness and reduce blade weight. The shear web connects the spar caps and transfers aerodynamic load and structural load from the tip region to the blade root. The sandwich structure in the trailing edge region uses balsa core to minimize blade mass while maintaining structural integrity.",
+  "claims": [
+    "A wind turbine blade comprising: a blade shell enclosing an interior space; a main spar having first and second spar caps made of carbon fibre reinforced polymer laminate; a shear web connecting the spar caps; wherein the spar caps are configured to resist bending moment and fatigue load.",
+    "The wind turbine blade of claim 1, wherein the shear web comprises a sandwich structure with foam core to reduce blade weight.",
+    "The wind turbine blade of claim 1, wherein the blade root comprises root bolts and a root flange for mounting to a rotor hub.",
+    "A method of manufacturing a wind turbine blade, the method comprising: laying carbon fibre reinforced prepreg in a mould; curing the laminate; bonding the spar caps to the shear web using structural adhesive along a bonding line."
+  ],
+  "description": "BACKGROUND OF THE INVENTION Wind turbine blades are subject to significant aerodynamic load and fatigue load during operation. The structural integrity of the blade depends on the spar caps and shear web to resist bending moment and distribute load from the blade tip to the blade root. DISCLOSURE OF THE INVENTION The object of the invention is to improve structural strength and reduce blade weight. In order to reduce blade weight and increase structural strength, the spar caps are made from carbon fibre reinforced polymer prepreg. The main spar extends from the blade root to the blade tip. At the root region, the blade root comprises a root flange and root bolts to connect to the pitch bearing. The spar caps have a carbon fibre reinforced laminate structure. The shear web connects the pressure side spar cap to the suction side spar cap within the blade shell. A sandwich structure with balsa core is used in the trailing edge region to minimize blade mass. Structural adhesive bonds the components along the bonding line. The blade shell comprises fiberglass outer shell with epoxy resin matrix to protect against leading edge erosion.",
+  "ipc_codes": [
+    "F03D1/06",
+    "B29C70/34"
+  ]
+}

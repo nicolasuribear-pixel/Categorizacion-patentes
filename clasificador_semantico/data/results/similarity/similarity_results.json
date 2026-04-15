@@ -1,0 +1,424 @@
+[
+  {
+    "patent1": "US8550777B2",
+    "patent2": "US8932024B2",
+    "overall_similarity": 0.6319287010428319,
+    "entity_similarity": 0.17857142857142858,
+    "structure_similarity": 0.9976898820280145,
+    "relation_similarity": 0.9081074693399913,
+    "size_similarity": 0.8967032967032967,
+    "graph1_stats": {
+      "nodes": 35,
+      "edges": 80,
+      "entity_types": {
+        "S": 25,
+        "F": 3,
+        "R": 3,
+        "L": 4
+      },
+      "relations": {
+        "uses": 29,
+        "located_at": 22,
+        "addresses": 7,
+        "fulfills": 22
+      }
+    },
+    "graph2_stats": {
+      "nodes": 32,
+      "edges": 91,
+      "entity_types": {
+        "S": 23,
+        "R": 2,
+        "F": 4,
+        "L": 3
+      },
+      "relations": {
+        "located_at": 25,
+        "addresses": 6,
+        "fulfills": 8,
+        "uses": 48,
+        "occurs_at": 4
+      }
+    }
+  },
+  {
+    "patent1": "US8550777B2",
+    "patent2": "US8834130B2",
+    "overall_similarity": 0.6056761855771546,
+    "entity_similarity": 0.09090909090909091,
+    "structure_similarity": 0.9989739031659667,
+    "relation_similarity": 0.9666364619492432,
+    "size_similarity": 0.8809523809523809,
+    "graph1_stats": {
+      "nodes": 35,
+      "edges": 80,
+      "entity_types": {
+        "S": 25,
+        "F": 3,
+        "R": 3,
+        "L": 4
+      },
+      "relations": {
+        "uses": 29,
+        "located_at": 22,
+        "addresses": 7,
+        "fulfills": 22
+      }
+    },
+    "graph2_stats": {
+      "nodes": 35,
+      "edges": 105,
+      "entity_types": {
+        "S": 24,
+        "L": 4,
+        "F": 4,
+        "R": 3
+      },
+      "relations": {
+        "located_at": 23,
+        "uses": 46,
+        "occurs_at": 6,
+        "addresses": 10,
+        "fulfills": 20
+      }
+    }
+  },
+  {
+    "patent1": "US8932024B2",
+    "patent2": "US8936435B2",
+    "overall_similarity": 0.5909146590666341,
+    "entity_similarity": 0.06896551724137931,
+    "structure_similarity": 0.9732222364718074,
+    "relation_similarity": 0.9709955738291542,
+    "size_similarity": 0.8724244505494505,
+    "graph1_stats": {
+      "nodes": 32,
+      "edges": 91,
+      "entity_types": {
+        "S": 23,
+        "R": 2,
+        "F": 4,
+        "L": 3
+      },
+      "relations": {
+        "located_at": 25,
+        "addresses": 6,
+        "fulfills": 8,
+        "uses": 48,
+        "occurs_at": 4
+      }
+    },
+    "graph2_stats": {
+      "nodes": 27,
+      "edges": 82,
+      "entity_types": {
+        "L": 5,
+        "S": 15,
+        "F": 5,
+        "R": 2
+      },
+      "relations": {
+        "uses": 35,
+        "occurs_at": 12,
+        "located_at": 23,
+        "addresses": 8,
+        "fulfills": 4
+      }
+    }
+  },
+  {
+    "patent1": "US8834130B2",
+    "patent2": "US8932024B2",
+    "overall_similarity": 0.5848577619028266,
+    "entity_similarity": 0.03125,
+    "structure_similarity": 0.9987066335539252,
+    "relation_similarity": 0.9726059854840169,
+    "size_similarity": 0.8904761904761904,
+    "graph1_stats": {
+      "nodes": 35,
+      "edges": 105,
+      "entity_types": {
+        "S": 24,
+        "L": 4,
+        "F": 4,
+        "R": 3
+      },
+      "relations": {
+        "located_at": 23,
+        "uses": 46,
+        "occurs_at": 6,
+        "addresses": 10,
+        "fulfills": 20
+      }
+    },
+    "graph2_stats": {
+      "nodes": 32,
+      "edges": 91,
+      "entity_types": {
+        "S": 23,
+        "R": 2,
+        "F": 4,
+        "L": 3
+      },
+      "relations": {
+        "located_at": 25,
+        "addresses": 6,
+        "fulfills": 8,
+        "uses": 48,
+        "occurs_at": 4
+      }
+    }
+  },
+  {
+    "patent1": "US8550777B2",
+    "patent2": "US8936435B2",
+    "overall_similarity": 0.5811511805915563,
+    "entity_similarity": 0.0967741935483871,
+    "structure_similarity": 0.970171520459298,
+    "relation_similarity": 0.8685168316386433,
+    "size_similarity": 0.8735191637630662,
+    "graph1_stats": {
+      "nodes": 35,
+      "edges": 80,
+      "entity_types": {
+        "S": 25,
+        "F": 3,
+        "R": 3,
+        "L": 4
+      },
+      "relations": {
+        "uses": 29,
+        "located_at": 22,
+        "addresses": 7,
+        "fulfills": 22
+      }
+    },
+    "graph2_stats": {
+      "nodes": 27,
+      "edges": 82,
+      "entity_types": {
+        "L": 5,
+        "S": 15,
+        "F": 5,
+        "R": 2
+      },
+      "relations": {
+        "uses": 35,
+        "occurs_at": 12,
+        "located_at": 23,
+        "addresses": 8,
+        "fulfills": 4
+      }
+    }
+  },
+  {
+    "patent1": "US8834130B2",
+    "patent2": "US8936435B2",
+    "overall_similarity": 0.5787026185085148,
+    "entity_similarity": 0.0967741935483871,
+    "structure_similarity": 0.9785462341255949,
+    "relation_similarity": 0.9452279951297284,
+    "size_similarity": 0.7761904761904762,
+    "graph1_stats": {
+      "nodes": 35,
+      "edges": 105,
+      "entity_types": {
+        "S": 24,
+        "L": 4,
+        "F": 4,
+        "R": 3
+      },
+      "relations": {
+        "located_at": 23,
+        "uses": 46,
+        "occurs_at": 6,
+        "addresses": 10,
+        "fulfills": 20
+      }
+    },
+    "graph2_stats": {
+      "nodes": 27,
+      "edges": 82,
+      "entity_types": {
+        "L": 5,
+        "S": 15,
+        "F": 5,
+        "R": 2
+      },
+      "relations": {
+        "uses": 35,
+        "occurs_at": 12,
+        "located_at": 23,
+        "addresses": 8,
+        "fulfills": 4
+      }
+    }
+  },
+  {
+    "patent1": "US10400744B2",
+    "patent2": "US8550777B2",
+    "overall_similarity": 0.5028182085558498,
+    "entity_similarity": 0.2857142857142857,
+    "structure_similarity": 0.8561532851454775,
+    "relation_similarity": 0.7034734719194858,
+    "size_similarity": 0.38303571428571437,
+    "graph1_stats": {
+      "nodes": 15,
+      "edges": 27,
+      "entity_types": {
+        "S": 7,
+        "R": 1,
+        "L": 6,
+        "F": 1
+      },
+      "relations": {
+        "located_at": 17,
+        "addresses": 1,
+        "uses": 6,
+        "occurs_at": 3
+      }
+    },
+    "graph2_stats": {
+      "nodes": 35,
+      "edges": 80,
+      "entity_types": {
+        "S": 25,
+        "F": 3,
+        "R": 3,
+        "L": 4
+      },
+      "relations": {
+        "uses": 29,
+        "located_at": 22,
+        "addresses": 7,
+        "fulfills": 22
+      }
+    }
+  },
+  {
+    "patent1": "US10400744B2",
+    "patent2": "US8936435B2",
+    "overall_similarity": 0.4459090280014716,
+    "entity_similarity": 0.041666666666666664,
+    "structure_similarity": 0.9114369192975045,
+    "relation_similarity": 0.7923629632572788,
+    "size_similarity": 0.44241192411924124,
+    "graph1_stats": {
+      "nodes": 15,
+      "edges": 27,
+      "entity_types": {
+        "S": 7,
+        "R": 1,
+        "L": 6,
+        "F": 1
+      },
+      "relations": {
+        "located_at": 17,
+        "addresses": 1,
+        "uses": 6,
+        "occurs_at": 3
+      }
+    },
+    "graph2_stats": {
+      "nodes": 27,
+      "edges": 82,
+      "entity_types": {
+        "L": 5,
+        "S": 15,
+        "F": 5,
+        "R": 2
+      },
+      "relations": {
+        "uses": 35,
+        "occurs_at": 12,
+        "located_at": 23,
+        "addresses": 8,
+        "fulfills": 4
+      }
+    }
+  },
+  {
+    "patent1": "US10400744B2",
+    "patent2": "US8932024B2",
+    "overall_similarity": 0.4255919430364946,
+    "entity_similarity": 0.09090909090909091,
+    "structure_similarity": 0.839643639844526,
+    "relation_similarity": 0.7237712451681166,
+    "size_similarity": 0.38272664835164827,
+    "graph1_stats": {
+      "nodes": 15,
+      "edges": 27,
+      "entity_types": {
+        "S": 7,
+        "R": 1,
+        "L": 6,
+        "F": 1
+      },
+      "relations": {
+        "located_at": 17,
+        "addresses": 1,
+        "uses": 6,
+        "occurs_at": 3
+      }
+    },
+    "graph2_stats": {
+      "nodes": 32,
+      "edges": 91,
+      "entity_types": {
+        "S": 23,
+        "R": 2,
+        "F": 4,
+        "L": 3
+      },
+      "relations": {
+        "located_at": 25,
+        "addresses": 6,
+        "fulfills": 8,
+        "uses": 48,
+        "occurs_at": 4
+      }
+    }
+  },
+  {
+    "patent1": "US10400744B2",
+    "patent2": "US8834130B2",
+    "overall_similarity": 0.40700600142227406,
+    "entity_similarity": 0.08,
+    "structure_similarity": 0.858916346443569,
+    "relation_similarity": 0.6732565178106585,
+    "size_similarity": 0.34285714285714286,
+    "graph1_stats": {
+      "nodes": 15,
+      "edges": 27,
+      "entity_types": {
+        "S": 7,
+        "R": 1,
+        "L": 6,
+        "F": 1
+      },
+      "relations": {
+        "located_at": 17,
+        "addresses": 1,
+        "uses": 6,
+        "occurs_at": 3
+      }
+    },
+    "graph2_stats": {
+      "nodes": 35,
+      "edges": 105,
+      "entity_types": {
+        "S": 24,
+        "L": 4,
+        "F": 4,
+        "R": 3
+      },
+      "relations": {
+        "located_at": 23,
+        "uses": 46,
+        "occurs_at": 6,
+        "addresses": 10,
+        "fulfills": 20
+      }
+    }
+  }
+]

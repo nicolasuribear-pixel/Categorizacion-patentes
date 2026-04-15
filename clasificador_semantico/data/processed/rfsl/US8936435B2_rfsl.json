@@ -1,0 +1,1019 @@
+{
+  "patent_id": "US8936435B2",
+  "entities": {
+    "R": [
+      {
+        "entity": "improve aerodynamic efficiency",
+        "type": "Requirement",
+        "action": "improve",
+        "position": 221,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "improve aerodynamic performance and",
+        "type": "Requirement",
+        "action": "improve",
+        "position": 452,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "improve lift-to-drag ratio",
+        "type": "Requirement",
+        "action": "improve",
+        "position": 1074,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "improve aerodynamic efficiency and",
+        "type": "Requirement",
+        "action": "improve",
+        "position": 1608,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "improve aerodynamic performance",
+        "type": "Requirement",
+        "action": "improve",
+        "position": 1705,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "increase lift-to-drag ratio",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 373,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "increase power output",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 488,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "increase lift and improve",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 1056,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "increase aerodynamic lift",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 2014,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce boundary layer separation",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 336,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce flow separation and",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 751,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce aerodynamic efficiency and",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1328,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce aerodynamic drag",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1952,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce tip vortex and",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 2079,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "prevent flow separation and",
+        "type": "Requirement",
+        "action": "prevent",
+        "position": 193,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "maximize power output",
+        "type": "Requirement",
+        "action": "maximize",
+        "position": 1232,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "optimize lift-to-drag ratio and",
+        "type": "Requirement",
+        "action": "optimize",
+        "position": 1920,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "optimize for high lift",
+        "type": "Requirement",
+        "action": "optimize",
+        "position": 2190,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "improve aerodynamic efficiency and increase power output",
+        "type": "Requirement",
+        "action": "intro_phrase",
+        "position": 1574,
+        "method": "intro_pattern"
+      },
+      {
+        "entity": "reduce flow separation and improve aerodynamic performance",
+        "type": "Requirement",
+        "action": "intro_phrase",
+        "position": 1666,
+        "method": "intro_pattern"
+      },
+      {
+        "entity": "aerodynamic efficiency",
+        "type": "Requirement",
+        "action": "aerodynamic_efficiency",
+        "position": 229,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "aerodynamic performance",
+        "type": "Requirement",
+        "action": "aerodynamic_efficiency",
+        "position": 460,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "lift-to-drag ratio",
+        "type": "Requirement",
+        "action": "aerodynamic_efficiency",
+        "position": 382,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "power output",
+        "type": "Requirement",
+        "action": "aerodynamic_efficiency",
+        "position": 497,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "flow separation",
+        "type": "Requirement",
+        "action": "flow_control",
+        "position": 201,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "boundary layer separation",
+        "type": "Requirement",
+        "action": "flow_control",
+        "position": 53,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "aerodynamic load",
+        "type": "Requirement",
+        "action": "loads",
+        "position": 2300,
+        "method": "target_keyword"
+      }
+    ],
+    "F": [
+      {
+        "entity": "generate vortices in the boundary layer",
+        "type": "Function",
+        "verb": "generate",
+        "noun": "boundary layer",
+        "position": 1819,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "generate vortices",
+        "type": "Function",
+        "verb": "generate",
+        "noun": "vortices",
+        "position": 1819,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "control boundary layer",
+        "type": "Function",
+        "verb": "control",
+        "noun": "boundary layer",
+        "position": 45,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "control boundary layer",
+        "type": "Function",
+        "verb": "control",
+        "noun": "boundary layer",
+        "position": 929,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "controls blade pitch",
+        "type": "Function",
+        "verb": "control",
+        "noun": "blade pitch",
+        "position": 2244,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "controls blade pitch angle",
+        "type": "Function",
+        "verb": "control",
+        "noun": "pitch angle",
+        "position": 2244,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "regulate rotor torque",
+        "type": "Function",
+        "verb": "regulate",
+        "noun": "rotor torque",
+        "position": 2274,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "regulate rotor torque and aerodynamic load",
+        "type": "Function",
+        "verb": "regulate",
+        "noun": "aerodynamic load",
+        "position": 2274,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "optimized to maximize power output",
+        "type": "Function",
+        "verb": "optimize",
+        "noun": "power output",
+        "position": 1219,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "optimize lift",
+        "type": "Function",
+        "verb": "optimize",
+        "noun": "lift",
+        "position": 1920,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "optimized for high lift",
+        "type": "Function",
+        "verb": "optimize",
+        "noun": "lift",
+        "position": 2190,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "optimized for high lift coefficient",
+        "type": "Function",
+        "verb": "optimize",
+        "noun": "lift coefficient",
+        "position": 2190,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "optimize lift-to-drag ratio",
+        "type": "Function",
+        "verb": "optimize",
+        "noun": "lift-to-drag ratio",
+        "position": 1920,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "prevent flow separation",
+        "type": "Function",
+        "verb": "prevent",
+        "noun": "flow separation",
+        "position": 193,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "improve lift",
+        "type": "Function",
+        "verb": "improve",
+        "noun": "lift",
+        "position": 1074,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "improve lift-to-drag ratio",
+        "type": "Function",
+        "verb": "improve",
+        "noun": "lift-to-drag ratio",
+        "position": 1074,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "improve aerodynamic efficiency",
+        "type": "Function",
+        "verb": "improve",
+        "noun": "aerodynamic efficiency",
+        "position": 221,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "improve aerodynamic efficiency",
+        "type": "Function",
+        "verb": "improve",
+        "noun": "aerodynamic efficiency",
+        "position": 778,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "improve aerodynamic efficiency",
+        "type": "Function",
+        "verb": "improve",
+        "noun": "aerodynamic efficiency",
+        "position": 1608,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "improve aerodynamic efficiency",
+        "type": "Function",
+        "verb": "improve",
+        "noun": "aerodynamic efficiency",
+        "position": 2101,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "improve aerodynamic performance",
+        "type": "Function",
+        "verb": "improve",
+        "noun": "aerodynamic performance",
+        "position": 452,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "improve aerodynamic performance",
+        "type": "Function",
+        "verb": "improve",
+        "noun": "aerodynamic performance",
+        "position": 1705,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase power output",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "power output",
+        "position": 488,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase power output",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "power output",
+        "position": 1643,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase lift",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "lift",
+        "position": 373,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase lift",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "lift",
+        "position": 1056,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increases aerodynamic lift",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "lift",
+        "position": 2014,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase lift-to-drag ratio",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "lift-to-drag ratio",
+        "position": 373,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase lift and improve lift-to-drag ratio",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "lift-to-drag ratio",
+        "position": 1056,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "maximize power output",
+        "type": "Function",
+        "verb": "maximize",
+        "noun": "power output",
+        "position": 1232,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduces aerodynamic efficiency and power output",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "power output",
+        "position": 1328,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce aerodynamic drag",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "drag",
+        "position": 1952,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce boundary layer",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "boundary layer",
+        "position": 336,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce flow separation",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "flow separation",
+        "position": 751,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce flow separation",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "flow separation",
+        "position": 1678,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduce tip vortex",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "vortex",
+        "position": 2079,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "reduces aerodynamic efficiency",
+        "type": "Function",
+        "verb": "reduce",
+        "noun": "aerodynamic efficiency",
+        "position": 1328,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "configured to reduce flow separation",
+        "type": "Function",
+        "verb": "functional_phrase",
+        "noun": "reduce flow separation",
+        "position": 737,
+        "method": "phrase_pattern"
+      },
+      {
+        "entity": "designed to optimize lift",
+        "type": "Function",
+        "verb": "functional_phrase",
+        "noun": "optimize lift",
+        "position": 1908,
+        "method": "phrase_pattern"
+      }
+    ],
+    "S": [
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 0
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 81
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 513
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 814
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 968
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1106
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 2349
+      },
+      {
+        "entity": "rotor blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1315
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 5
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 86
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 518
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 819
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 973
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1111
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 2354
+      },
+      {
+        "entity": "airfoil",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 110
+      },
+      {
+        "entity": "airfoil",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 546
+      },
+      {
+        "entity": "airfoil",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 1162
+      },
+      {
+        "entity": "airfoil",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 1889
+      },
+      {
+        "entity": "airfoil",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 2175
+      },
+      {
+        "entity": "airfoil profile",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 110
+      },
+      {
+        "entity": "airfoil profile",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 1162
+      },
+      {
+        "entity": "airfoil profile",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 1889
+      },
+      {
+        "entity": "blade tip",
+        "type": "Structure",
+        "category": "tip",
+        "position": 2046
+      },
+      {
+        "entity": "mid-span",
+        "type": "Structure",
+        "category": "mid_span",
+        "position": 910
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 320
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 561
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 658
+      },
+      {
+        "entity": "leading edge",
+        "type": "Structure",
+        "category": "leading_edge",
+        "position": 1461
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 435
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 578
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1039
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 2000
+      },
+      {
+        "entity": "suction side",
+        "type": "Structure",
+        "category": "suction_side",
+        "position": 164
+      },
+      {
+        "entity": "suction side",
+        "type": "Structure",
+        "category": "suction_side",
+        "position": 638
+      },
+      {
+        "entity": "suction side",
+        "type": "Structure",
+        "category": "suction_side",
+        "position": 1403
+      },
+      {
+        "entity": "suction side",
+        "type": "Structure",
+        "category": "suction_side",
+        "position": 1775
+      },
+      {
+        "entity": "airfoil region",
+        "type": "Structure",
+        "category": "airfoil_area",
+        "position": 2175
+      },
+      {
+        "entity": "vortex generator",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 24
+      },
+      {
+        "entity": "vortex generator",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 131
+      },
+      {
+        "entity": "vortex generator",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 257
+      },
+      {
+        "entity": "vortex generator",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 601
+      },
+      {
+        "entity": "vortex generator",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 719
+      },
+      {
+        "entity": "vortex generator",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 857
+      },
+      {
+        "entity": "vortex generator",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 1738
+      },
+      {
+        "entity": "vortex generator",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 1801
+      },
+      {
+        "entity": "vortex generators",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 24
+      },
+      {
+        "entity": "vortex generators",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 131
+      },
+      {
+        "entity": "vortex generators",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 257
+      },
+      {
+        "entity": "vortex generators",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 601
+      },
+      {
+        "entity": "vortex generators",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 719
+      },
+      {
+        "entity": "vortex generators",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 857
+      },
+      {
+        "entity": "vortex generators",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 1738
+      },
+      {
+        "entity": "vortex generators",
+        "type": "Structure",
+        "category": "vortex_generator",
+        "position": 1801
+      },
+      {
+        "entity": "gurney flap",
+        "type": "Structure",
+        "category": "gurney_flap",
+        "position": 404
+      },
+      {
+        "entity": "gurney flap",
+        "type": "Structure",
+        "category": "gurney_flap",
+        "position": 1020
+      },
+      {
+        "entity": "gurney flap",
+        "type": "Structure",
+        "category": "gurney_flap",
+        "position": 1981
+      },
+      {
+        "entity": "winglet",
+        "type": "Structure",
+        "category": "winglet",
+        "position": 2068
+      },
+      {
+        "entity": "pitch system",
+        "type": "Structure",
+        "category": "pitch_system",
+        "position": 2231
+      },
+      {
+        "entity": "pitch bearing",
+        "type": "Structure",
+        "category": "pitch_bearing",
+        "position": 2322
+      },
+      {
+        "entity": "rotor hub",
+        "type": "Structure",
+        "category": "hub",
+        "position": 2375
+      },
+      {
+        "entity": "wind turbine rotor",
+        "type": "Structure",
+        "category": "rotor",
+        "position": 1302
+      },
+      {
+        "entity": "turbine rotor",
+        "type": "Structure",
+        "category": "rotor",
+        "position": 1307
+      }
+    ],
+    "L": [
+      {
+        "entity": "mid-span region",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 910
+      },
+      {
+        "entity": "inboard section",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 295
+      },
+      {
+        "entity": "inboard section",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 685
+      },
+      {
+        "entity": "inboard section",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 1495
+      },
+      {
+        "entity": "outboard section",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 2140
+      },
+      {
+        "entity": "along the span",
+        "type": "Location",
+        "category": "spanwise",
+        "position": 888
+      },
+      {
+        "entity": "at the leading edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 651
+      },
+      {
+        "entity": "leading edge region",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 658
+      },
+      {
+        "entity": "near the leading edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 311
+      },
+      {
+        "entity": "near the leading edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 1452
+      },
+      {
+        "entity": "at the trailing edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 428
+      },
+      {
+        "entity": "at the trailing edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 1032
+      },
+      {
+        "entity": "at the trailing edge",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 1993
+      },
+      {
+        "entity": "on the suction side",
+        "type": "Location",
+        "category": "sides",
+        "position": 157
+      },
+      {
+        "entity": "on the suction side",
+        "type": "Location",
+        "category": "sides",
+        "position": 631
+      },
+      {
+        "entity": "on the suction side",
+        "type": "Location",
+        "category": "sides",
+        "position": 1396
+      },
+      {
+        "entity": "on the suction side",
+        "type": "Location",
+        "category": "sides",
+        "position": 1768
+      },
+      {
+        "entity": "suction side of the blade",
+        "type": "Location",
+        "category": "sides",
+        "position": 164
+      },
+      {
+        "entity": "suction side of the blade",
+        "type": "Location",
+        "category": "sides",
+        "position": 1403
+      }
+    ]
+  },
+  "stats": {
+    "total_entities": 148,
+    "R_count": 27,
+    "F_count": 39,
+    "S_count": 63,
+    "L_count": 19
+  },
+  "text_sources": {
+    "title": 78,
+    "abstract": 431,
+    "claims": 743,
+    "description": 1130
+  }
+}

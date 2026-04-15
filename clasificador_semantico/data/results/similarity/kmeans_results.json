@@ -1,0 +1,26 @@
+{
+  "n_clusters": 3,
+  "inertia": 22.08334565091772,
+  "clusters": {
+    "cluster_0": {
+      "patents": [
+        "US8550777B2"
+      ],
+      "size": 1
+    },
+    "cluster_1": {
+      "patents": [
+        "US8834130B2",
+        "US8932024B2",
+        "US8936435B2"
+      ],
+      "size": 3
+    },
+    "cluster_2": {
+      "patents": [
+        "US10400744B2"
+      ],
+      "size": 1
+    }
+  }
+}

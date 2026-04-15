@@ -1,0 +1,784 @@
+{
+  "patent_id": "US10400744B2",
+  "entities": {
+    "R": [
+      {
+        "entity": "improve structural strength and",
+        "type": "Requirement",
+        "action": "improve",
+        "position": 418,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "increase blade stiffness and",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 798,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "increase fatigue load and",
+        "type": "Requirement",
+        "action": "increase",
+        "position": 1306,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce blade weight and",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 192,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce blade weight",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 648,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce blade mass while",
+        "type": "Requirement",
+        "action": "reduce",
+        "position": 1680,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "enhance by carbon fibre",
+        "type": "Requirement",
+        "action": "enhance",
+        "position": 2053,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "minimize blade mass",
+        "type": "Requirement",
+        "action": "minimize",
+        "position": 470,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "minimize manufacturing cost",
+        "type": "Requirement",
+        "action": "minimize",
+        "position": 988,
+        "method": "explicit_pattern"
+      },
+      {
+        "entity": "reduce blade weight and minimize manufacturing cost",
+        "type": "Requirement",
+        "action": "intro_phrase",
+        "position": 1459,
+        "method": "intro_pattern"
+      },
+      {
+        "entity": "structural strength",
+        "type": "Requirement",
+        "action": "structural_strength",
+        "position": 427,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "blade stiffness",
+        "type": "Requirement",
+        "action": "structural_strength",
+        "position": 807,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "structural integrity",
+        "type": "Requirement",
+        "action": "structural_strength",
+        "position": 1159,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "blade weight",
+        "type": "Requirement",
+        "action": "weight",
+        "position": 199,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "blade mass",
+        "type": "Requirement",
+        "action": "weight",
+        "position": 481,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "fatigue life",
+        "type": "Requirement",
+        "action": "fatigue",
+        "position": 451,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "manufacturing cost",
+        "type": "Requirement",
+        "action": "manufacturing_cost",
+        "position": 216,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "fatigue load",
+        "type": "Requirement",
+        "action": "loads",
+        "position": 1315,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "gust load",
+        "type": "Requirement",
+        "action": "loads",
+        "position": 1931,
+        "method": "target_keyword"
+      },
+      {
+        "entity": "structural load",
+        "type": "Requirement",
+        "action": "loads",
+        "position": 1379,
+        "method": "target_keyword"
+      }
+    ],
+    "F": [
+      {
+        "entity": "resist bending moment",
+        "type": "Function",
+        "verb": "resist",
+        "noun": "bending moment",
+        "position": 827,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "withstand fatigue load",
+        "type": "Function",
+        "verb": "withstand",
+        "noun": "fatigue load",
+        "position": 1904,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "withstand fatigue load and gust load",
+        "type": "Function",
+        "verb": "withstand",
+        "noun": "gust load",
+        "position": 1904,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "improves structural strength and fatigue life",
+        "type": "Function",
+        "verb": "improve",
+        "noun": "fatigue life",
+        "position": 418,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase fatigue load",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "fatigue load",
+        "position": 1306,
+        "method": "verb+noun"
+      },
+      {
+        "entity": "increase blade stiffness",
+        "type": "Function",
+        "verb": "increase",
+        "noun": "blade stiffness",
+        "position": 798,
+        "method": "verb+noun"
+      }
+    ],
+    "S": [
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 12
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 76
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 495
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 673
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 854
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1021
+      },
+      {
+        "entity": "wind turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1223
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 17
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 81
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 500
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 678
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 859
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1026
+      },
+      {
+        "entity": "turbine blade",
+        "type": "Structure",
+        "category": "blade",
+        "position": 1228
+      },
+      {
+        "entity": "airfoil",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 371
+      },
+      {
+        "entity": "airfoil",
+        "type": "Structure",
+        "category": "airfoil",
+        "position": 940
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 742
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1587
+      },
+      {
+        "entity": "spar",
+        "type": "Structure",
+        "category": "spar",
+        "position": 2104
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 742
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1587
+      },
+      {
+        "entity": "spar cap",
+        "type": "Structure",
+        "category": "spar",
+        "position": 2104
+      },
+      {
+        "entity": "spar caps",
+        "type": "Structure",
+        "category": "spar",
+        "position": 1587
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 240
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 527
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 1107
+      },
+      {
+        "entity": "blade shell",
+        "type": "Structure",
+        "category": "shell",
+        "position": 1820
+      },
+      {
+        "entity": "sandwich structure",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 55
+      },
+      {
+        "entity": "sandwich structure",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 170
+      },
+      {
+        "entity": "sandwich structure",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 626
+      },
+      {
+        "entity": "sandwich structure",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 1625
+      },
+      {
+        "entity": "sandwich panel",
+        "type": "Structure",
+        "category": "sandwich",
+        "position": 970
+      },
+      {
+        "entity": "blade root",
+        "type": "Structure",
+        "category": "root",
+        "position": 925
+      },
+      {
+        "entity": "root section",
+        "type": "Structure",
+        "category": "root",
+        "position": 350
+      },
+      {
+        "entity": "root section",
+        "type": "Structure",
+        "category": "root",
+        "position": 2125
+      },
+      {
+        "entity": "trailing edge",
+        "type": "Structure",
+        "category": "trailing_edge",
+        "position": 1792
+      },
+      {
+        "entity": "transition area",
+        "type": "Structure",
+        "category": "transition_area",
+        "position": 322
+      },
+      {
+        "entity": "transition area",
+        "type": "Structure",
+        "category": "transition_area",
+        "position": 897
+      },
+      {
+        "entity": "transition area",
+        "type": "Structure",
+        "category": "transition_area",
+        "position": 1772
+      },
+      {
+        "entity": "airfoil area",
+        "type": "Structure",
+        "category": "airfoil_area",
+        "position": 371
+      },
+      {
+        "entity": "airfoil area",
+        "type": "Structure",
+        "category": "airfoil_area",
+        "position": 940
+      },
+      {
+        "entity": "pitch bearing",
+        "type": "Structure",
+        "category": "pitch_bearing",
+        "position": 1402
+      },
+      {
+        "entity": "pitch bearing",
+        "type": "Structure",
+        "category": "pitch_bearing",
+        "position": 2205
+      },
+      {
+        "entity": "pitch bearing assembly",
+        "type": "Structure",
+        "category": "pitch_bearing",
+        "position": 2205
+      },
+      {
+        "entity": "rotor hub",
+        "type": "Structure",
+        "category": "hub",
+        "position": 1420
+      },
+      {
+        "entity": "fiberglass",
+        "type": "Structure",
+        "category": "fiberglass",
+        "position": 2143
+      },
+      {
+        "entity": "fibre-reinforced polymer",
+        "type": "Structure",
+        "category": "fiberglass",
+        "position": 273
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 117
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 577
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 763
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 1548
+      },
+      {
+        "entity": "carbon fibre",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 2065
+      },
+      {
+        "entity": "carbon fibre reinforced",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 577
+      },
+      {
+        "entity": "carbon fibre reinforced",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 763
+      },
+      {
+        "entity": "carbon fibre reinforced",
+        "type": "Structure",
+        "category": "carbon_fiber",
+        "position": 2065
+      },
+      {
+        "entity": "epoxy resin",
+        "type": "Structure",
+        "category": "epoxy_resin",
+        "position": 2159
+      },
+      {
+        "entity": "epoxy",
+        "type": "Structure",
+        "category": "epoxy_resin",
+        "position": 2159
+      },
+      {
+        "entity": "composite material",
+        "type": "Structure",
+        "category": "composite",
+        "position": 389
+      },
+      {
+        "entity": "composite material",
+        "type": "Structure",
+        "category": "composite",
+        "position": 1843
+      },
+      {
+        "entity": "fibre composite",
+        "type": "Structure",
+        "category": "composite",
+        "position": 124
+      },
+      {
+        "entity": "fibre composite",
+        "type": "Structure",
+        "category": "composite",
+        "position": 547
+      },
+      {
+        "entity": "fibre composite",
+        "type": "Structure",
+        "category": "composite",
+        "position": 1555
+      },
+      {
+        "entity": "fibre composite",
+        "type": "Structure",
+        "category": "composite",
+        "position": 1837
+      },
+      {
+        "entity": "laminate composite",
+        "type": "Structure",
+        "category": "composite",
+        "position": 1946
+      },
+      {
+        "entity": "foam core",
+        "type": "Structure",
+        "category": "foam_core",
+        "position": 305
+      },
+      {
+        "entity": "foam core",
+        "type": "Structure",
+        "category": "foam_core",
+        "position": 960
+      },
+      {
+        "entity": "foam core",
+        "type": "Structure",
+        "category": "foam_core",
+        "position": 1747
+      },
+      {
+        "entity": "polymer foam",
+        "type": "Structure",
+        "category": "foam_core",
+        "position": 1739
+      },
+      {
+        "entity": "balsa wood",
+        "type": "Structure",
+        "category": "balsa",
+        "position": 154
+      },
+      {
+        "entity": "balsa wood",
+        "type": "Structure",
+        "category": "balsa",
+        "position": 1649
+      },
+      {
+        "entity": "balsa core",
+        "type": "Structure",
+        "category": "balsa",
+        "position": 615
+      },
+      {
+        "entity": "prepreg",
+        "type": "Structure",
+        "category": "prepreg",
+        "position": 37
+      },
+      {
+        "entity": "prepreg",
+        "type": "Structure",
+        "category": "prepreg",
+        "position": 140
+      },
+      {
+        "entity": "prepreg",
+        "type": "Structure",
+        "category": "prepreg",
+        "position": 601
+      },
+      {
+        "entity": "prepreg",
+        "type": "Structure",
+        "category": "prepreg",
+        "position": 1540
+      },
+      {
+        "entity": "pre-impregnated",
+        "type": "Structure",
+        "category": "prepreg",
+        "position": 101
+      },
+      {
+        "entity": "pre-impregnated",
+        "type": "Structure",
+        "category": "prepreg",
+        "position": 1524
+      },
+      {
+        "entity": "laminate",
+        "type": "Structure",
+        "category": "laminate",
+        "position": 563
+      },
+      {
+        "entity": "laminate",
+        "type": "Structure",
+        "category": "laminate",
+        "position": 716
+      },
+      {
+        "entity": "laminate",
+        "type": "Structure",
+        "category": "laminate",
+        "position": 1601
+      },
+      {
+        "entity": "laminate",
+        "type": "Structure",
+        "category": "laminate",
+        "position": 1946
+      },
+      {
+        "entity": "structural adhesive",
+        "type": "Structure",
+        "category": "adhesive",
+        "position": 1060
+      },
+      {
+        "entity": "structural adhesive",
+        "type": "Structure",
+        "category": "adhesive",
+        "position": 1986
+      },
+      {
+        "entity": "bonding agent",
+        "type": "Structure",
+        "category": "adhesive",
+        "position": 1084
+      },
+      {
+        "entity": "root flange",
+        "type": "Structure",
+        "category": "flange",
+        "position": 2189
+      },
+      {
+        "entity": "bonding line",
+        "type": "Structure",
+        "category": "bonding_line",
+        "position": 1134
+      },
+      {
+        "entity": "bonding line",
+        "type": "Structure",
+        "category": "bonding_line",
+        "position": 2016
+      }
+    ],
+    "L": [
+      {
+        "entity": "trailing edge region",
+        "type": "Location",
+        "category": "chordwise",
+        "position": 1792
+      },
+      {
+        "entity": "spar cap region",
+        "type": "Location",
+        "category": "structural_zones",
+        "position": 742
+      },
+      {
+        "entity": "spar cap region",
+        "type": "Location",
+        "category": "structural_zones",
+        "position": 2104
+      },
+      {
+        "entity": "airfoil area",
+        "type": "Location",
+        "category": "structural_zones",
+        "position": 371
+      },
+      {
+        "entity": "airfoil area",
+        "type": "Location",
+        "category": "structural_zones",
+        "position": 940
+      },
+      {
+        "entity": "transition area",
+        "type": "Location",
+        "category": "structural_zones",
+        "position": 322
+      },
+      {
+        "entity": "transition area",
+        "type": "Location",
+        "category": "structural_zones",
+        "position": 897
+      },
+      {
+        "entity": "transition area",
+        "type": "Location",
+        "category": "structural_zones",
+        "position": 1772
+      }
+    ]
+  },
+  "stats": {
+    "total_entities": 121,
+    "R_count": 20,
+    "F_count": 6,
+    "S_count": 87,
+    "L_count": 8
+  },
+  "text_sources": {
+    "title": 73,
+    "abstract": 418,
+    "claims": 687,
+    "description": 1047
+  }
+}
