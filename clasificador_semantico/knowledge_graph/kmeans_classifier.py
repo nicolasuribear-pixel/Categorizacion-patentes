@@ -104,7 +104,7 @@ class KMeansPatentClassifier:
                 patent_features.extend([0, 0, 0, 0])
 
             # GRUPO 3: Conteos de aristas por tipo de relación
-            edge_types = {'addresses': 0, 'uses': 0, 'located_at': 0, 'occurs_at': 0}
+            edge_types = {'addresses': 0, 'uses': 0, 'located_at': 0, 'occurs_at': 0, 'fulfills': 0}
             for _, _, attrs in graph.edges(data=True):
                 etype = attrs.get('relation', 'unknown')
                 if etype in edge_types:
@@ -114,7 +114,8 @@ class KMeansPatentClassifier:
                 edge_types['addresses'],
                 edge_types['uses'],
                 edge_types['located_at'],
-                edge_types['occurs_at']
+                edge_types['occurs_at'],
+                edge_types['fulfills']
             ])
 
             # GRUPO 4: Métricas topológicas del grafo
@@ -164,7 +165,7 @@ class KMeansPatentClassifier:
             # Ratios
             'ratio_R', 'ratio_F', 'ratio_S', 'ratio_L',
             # Relaciones
-            'edges_addresses', 'edges_uses', 'edges_located_at', 'edges_occurs_at',
+            'edges_addresses', 'edges_uses', 'edges_located_at', 'edges_occurs_at', 'edges_fulfills',
             # Topología
             'total_nodes', 'total_edges', 'density',
             # Grados
