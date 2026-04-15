@@ -9,8 +9,57 @@ import re
 import os
 from core.domain_dictionaries import (
     STRUCTURES, FUNCTION_VERBS, FUNCTION_NOUNS,
-    LOCATION_TERMS, REQUIREMENT_PATTERNS, TARGET_REQUIREMENTS
+    LOCATION_TERMS, REQUIREMENT_VERBS, TARGET_REQUIREMENTS,
+    STOP_CAPTURES, DOMAIN_RELEVANCE_TERMS
 )
+
+
+# ═══════════════════════════════════════════════════════════════
+# HELPERS DE FILTRADO DE CALIDAD
+# ═══════════════════════════════════════════════════════════════
+
+def _is_trivial_capture(capture: str) -> bool:
+    """True si la captura es demasiado corta, vacía o solo stop-words."""
+    if not capture:
+        return True
+    text = capture.strip().lower()
+    if len(text) < 3:
+        return True
+    tokens = [t for t in re.split(r"\W+", text) if t]
+    if not tokens:
+        return True
+    # Si TODAS las palabras son stop-captures → trivial.
+    if all(t in STOP_CAPTURES for t in tokens):
+        return True
+    # Si no queda ningún token con más de 2 letras no-stop → trivial.
+    meaningful = [t for t in tokens if t not in STOP_CAPTURES and len(t) > 2]
+    if not meaningful:
+        return True
+    return False
+
+
+def _is_domain_relevant(text: str) -> bool:
+    """True si el texto contiene al menos un término del dominio."""
+    if not text:
+        return False
+    lower = text.lower()
+    return any(term in lower for term in DOMAIN_RELEVANCE_TERMS)
+
+
+def _verb_regex(verb: str) -> str:
+    """
+    Devuelve un patrón regex que captura el verbo y sus conjugaciones
+    regulares más comunes (-s, -es, -ed, -ing, -d), manejando el caso
+    de verbos terminados en -e (generate → generating, reduce → reducing).
+    """
+    v = verb.lower()
+    if v.endswith("e"):
+        stem = re.escape(v[:-1])
+        # generate, generates, generated, generating
+        return rf"(?:\b{stem}e(?:s|d)?\b|\b{stem}ing\b)"
+    # control, controls, controlled, controlling (doble consonante incluida)
+    base = re.escape(v)
+    return rf"\b{base}(?:s|es|ed|ing|led|ling|ped|ping|ted|ting|ned|ning)?\b"
 
 
 class RFSLExtractor:
@@ -21,8 +70,21 @@ class RFSLExtractor:
         self.function_verbs = FUNCTION_VERBS
         self.function_nouns = FUNCTION_NOUNS
         self.location_terms = LOCATION_TERMS
-        self.requirement_patterns = REQUIREMENT_PATTERNS
+        self.requirement_verbs = REQUIREMENT_VERBS
         self.target_requirements = TARGET_REQUIREMENTS
+        # Pre-computa los patrones de requisitos a partir de los verbos base,
+        # manejando conjugaciones y limitando la captura a 3 palabras.
+        self._requirement_patterns = [
+            (
+                verb,
+                re.compile(
+                    rf"{_verb_regex(verb)}\s+(?:the\s+|a\s+|an\s+)?"
+                    rf"([a-zA-Z][\w-]*(?:\s+[a-zA-Z][\w-]*){{0,2}})",
+                    re.IGNORECASE,
+                ),
+            )
+            for verb in REQUIREMENT_VERBS
+        ]
 
     def extract_structures(self, text):
         """Extrae estructuras (S) del texto"""
@@ -54,19 +116,31 @@ class RFSLExtractor:
         return unique_structures
 
     def extract_functions(self, text):
-        """Extrae funciones (F) del texto - VERSIÓN MEJORADA"""
+        """
+        Extrae funciones (F) del texto.
+
+        Se eliminó el antiguo "MÉTODO 2" que buscaba verbo + cualquier palabra:
+        generaba falsos positivos tipo "reduce the blade", "control the one",
+        etc. Ahora una función solo se considera válida si:
+          (a) combina un verbo de FUNCTION_VERBS con un sustantivo de
+              FUNCTION_NOUNS (match estricto verbo+noun específico), o
+          (b) sigue un patrón funcional estándar de patentes (configured to…,
+              adapted to…, etc.) y la captura es relevante al dominio.
+        """
         text_lower = text.lower()
         found_functions = []
 
-        # MÉTODO 1: Buscar combinaciones verbo + sustantivo
+        # MÉTODO 1: verbo de FUNCTION_VERBS (conjugado) + noun de FUNCTION_NOUNS
         for verb_type, verbs in self.function_verbs.items():
             for verb in verbs:
+                verb_pat = _verb_regex(verb)
                 for noun in self.function_nouns:
-                    # Patrón más flexible: verbo + palabras opcionales + sustantivo
-                    pattern = rf"\b{re.escape(verb)}\s+(?:\w+\s+){{0,3}}?{re.escape(noun)}\b"
-                    matches = re.finditer(pattern, text_lower, re.IGNORECASE)
-
-                    for match in matches:
+                    # verbo (cualquier conjugación) + hasta 3 palabras + noun
+                    pattern = (
+                        rf"{verb_pat}\s+(?:\w+\s+){{0,3}}?"
+                        rf"{re.escape(noun)}\b"
+                    )
+                    for match in re.finditer(pattern, text_lower, re.IGNORECASE):
                         found_functions.append({
                             "entity": match.group().strip(),
                             "type": "Function",
@@ -76,46 +150,34 @@ class RFSLExtractor:
                             "method": "verb+noun"
                         })
 
-        # MÉTODO 2: Buscar verbos solos cerca de sustantivos técnicos
-        for verb_type, verbs in self.function_verbs.items():
-            for verb in verbs:
-                # Buscar el verbo seguido de cualquier palabra técnica
-                pattern = rf"\b{re.escape(verb)}\s+(?:the\s+|a\s+)?(\w+(?:\s+\w+){{0,2}})"
-                matches = re.finditer(pattern, text_lower, re.IGNORECASE)
-
-                for match in matches:
-                    found_functions.append({
-                        "entity": match.group().strip(),
-                        "type": "Function",
-                        "verb": verb,
-                        "noun": match.group(1),
-                        "position": match.start(),
-                        "method": "verb_flexible"
-                    })
-
-        # MÉTODO 3: Buscar frases funcionales comunes
+        # MÉTODO 2: frases funcionales estándar de patentes
+        # Se exige que la captura sea no-trivial y relevante al dominio.
         functional_phrases = [
             r"configured to\s+(\w+(?:\s+\w+){0,2})",
             r"adapted to\s+(\w+(?:\s+\w+){0,2})",
             r"designed to\s+(\w+(?:\s+\w+){0,2})",
             r"operable to\s+(\w+(?:\s+\w+){0,2})",
-            r"capable of\s+(\w+(?:\s+\w+){0,2})",
+            r"capable of\s+(\w+ing(?:\s+\w+){0,2})",
             r"for\s+(\w+ing(?:\s+\w+){0,2})"
         ]
 
         for pattern in functional_phrases:
-            matches = re.finditer(pattern, text_lower, re.IGNORECASE)
-            for match in matches:
+            for match in re.finditer(pattern, text_lower, re.IGNORECASE):
+                capture = match.group(1).strip() if match.lastindex else ""
+                if _is_trivial_capture(capture):
+                    continue
+                if not _is_domain_relevant(capture):
+                    continue
                 found_functions.append({
                     "entity": match.group().strip(),
                     "type": "Function",
                     "verb": "functional_phrase",
-                    "noun": match.group(1),
+                    "noun": capture,
                     "position": match.start(),
                     "method": "phrase_pattern"
                 })
 
-        # Eliminar duplicados
+        # Eliminar duplicados por (entidad normalizada, posición)
         seen = set()
         unique_functions = []
         for f in found_functions:
@@ -155,114 +217,98 @@ class RFSLExtractor:
         return unique_locations
 
     def extract_requirements(self, text):
-        """Extrae requisitos (R) del texto - VERSIÓN MEJORADA V3"""
+        """
+        Extrae requisitos (R) del texto.
+
+        Filosofía (tras refactor):
+          - Un requirement es un OBJETIVO DE DISEÑO concreto del dominio
+            (reducir ruido, aumentar resistencia a fatiga, mitigar hielo,
+            mejorar eficiencia aerodinámica, etc.), no un fragmento
+            arbitrario del texto.
+          - Se eliminaron los métodos que capturaban 100-140 caracteres
+            de contexto alrededor de cualquier palabra genérica — eran
+            el origen de los "requirements muy amplios".
+          - Cada captura pasa filtros: no-trivial + relevante al dominio.
+
+        Métodos conservados:
+          1. Patrones explícitos verbo+objetivo (improve/reduce/…+hasta 3 palabras).
+          2. Frases introductorias de objeto/finalidad de la invención
+             (in order to…, the object of the invention is to…).
+          3. Mapeo directo de TARGET_REQUIREMENTS: si aparece uno de los
+             objetivos de diseño canónicos (aerodynamic efficiency, fatigue
+             life, ice accretion, etc.), se registra como requirement con
+             su categoría asociada.
+        """
         found_requirements = []
-        text_lower = text.lower()
 
-        # MÉTODO 1: Patrones de requisitos explícitos
-        for req_type, patterns in self.requirement_patterns.items():
-            for pattern in patterns:
-                matches = re.finditer(pattern, text, re.IGNORECASE)
-                for match in matches:
-                    requirement_text = match.group().strip()
-                    found_requirements.append({
-                        "entity": requirement_text,
-                        "type": "Requirement",
-                        "action": req_type,
-                        "position": match.start(),
-                        "method": "explicit_pattern"
-                    })
-
-        # MÉTODO 2: Frases introductorias de requisitos
-        requirement_intro_patterns = [
-            r"(?:the |a |an )?(?:present )?(?:invention|disclosure|method|system|apparatus) (?:provides|relates to|is directed to|concerns|addresses|describes|includes)\s+(.{15,120}?)(?:\.|,|;)",
-            r"(?:the |a |an )?(?:primary |main )?(?:object|objective|purpose|goal|aim) (?:is|of|includes)(?:\s+to)?\s+(.{15,120}?)(?:\.|,|;)",
-            r"(?:it is|there is) (?:a|an) (?:need|desire|requirement) (?:for|to)\s+(.{15,120}?)(?:\.|,|;)",
-            r"in order to\s+(.{15,100}?)(?:\.|,|;)",
-            r"so as to\s+(.{15,100}?)(?:\.|,|;)",
-            r"configured to\s+(.{15,100}?)(?:\.|,|;)",
-            r"adapted to\s+(.{15,100}?)(?:\.|,|;)",
-            r"designed to\s+(.{15,100}?)(?:\.|,|;)"
-        ]
-
-        for pattern in requirement_intro_patterns:
-            matches = re.finditer(pattern, text, re.IGNORECASE)
-            for match in matches:
-                requirement_text = match.group(1).strip() if match.lastindex >= 1 else match.group(0).strip()
+        # MÉTODO 1: patrones explícitos "verbo (conjugado) + hasta 3 palabras".
+        for req_type, pattern in self._requirement_patterns:
+            for match in pattern.finditer(text):
+                capture = match.group(1).strip() if match.lastindex else ""
+                if _is_trivial_capture(capture):
+                    continue
+                # Solo aceptamos si la captura contiene algo del dominio
+                if not _is_domain_relevant(capture):
+                    continue
+                requirement_text = f"{req_type} {capture}".strip().lower()
                 found_requirements.append({
                     "entity": requirement_text,
+                    "type": "Requirement",
+                    "action": req_type,
+                    "position": match.start(),
+                    "method": "explicit_pattern"
+                })
+
+        # MÉTODO 2: frases introductorias de objetivo/finalidad
+        # (típicas del apartado "DISCLOSURE OF THE INVENTION").
+        # Captura acotada a 15-80 chars para evitar fragmentos enormes.
+        requirement_intro_patterns = [
+            r"(?:the\s+)?(?:primary\s+|main\s+)?(?:object|objective|purpose|aim)"
+            r"\s+(?:of\s+(?:the\s+)?(?:invention|disclosure))?\s*(?:is|includes)"
+            r"(?:\s+to)?\s+(.{15,80}?)(?:\.|,|;)",
+            r"(?:it is|there is)\s+(?:a|an)\s+(?:need|desire|requirement)"
+            r"\s+(?:for|to)\s+(.{15,80}?)(?:\.|,|;)",
+            r"\bin order to\s+(.{15,80}?)(?:\.|,|;)",
+            r"\bso as to\s+(.{15,80}?)(?:\.|,|;)"
+        ]
+        for pattern in requirement_intro_patterns:
+            for match in re.finditer(pattern, text, re.IGNORECASE):
+                capture = match.group(1).strip() if match.lastindex else ""
+                if _is_trivial_capture(capture):
+                    continue
+                if not _is_domain_relevant(capture):
+                    continue
+                found_requirements.append({
+                    "entity": capture.lower(),
                     "type": "Requirement",
                     "action": "intro_phrase",
                     "position": match.start(),
                     "method": "intro_pattern"
                 })
 
-        # MÉTODO 3: Requisitos implícitos - verbos de acción técnicos
-        implicit_requirement_patterns = [
-            r"(?:method|system|apparatus|device) (?:for|to)\s+(\w+ing\s+.{10,80}?)(?:\.|,|;)",
-            r"(?:includes|comprises|has)\s+(\w+ing\s+.{10,80}?)(?:\.|,|;)",
-            r"(?:determining|measuring|controlling|providing|calculating|monitoring|adjusting|optimizing)\s+(.{10,80}?)(?:\.|,|;)"
-        ]
-
-        for pattern in implicit_requirement_patterns:
-            matches = re.finditer(pattern, text, re.IGNORECASE)
-            for match in matches:
-                requirement_text = match.group(1).strip() if match.lastindex >= 1 else match.group(0).strip()
-                found_requirements.append({
-                    "entity": requirement_text,
-                    "type": "Requirement",
-                    "action": "implicit_action",
-                    "position": match.start(),
-                    "method": "implicit_pattern"
-                })
-
-        # MÉTODO 4: Palabras clave de mejora en contexto
-        improvement_keywords = [
-            "improve", "increase", "reduce", "minimize", "maximize", "enhance",
-            "optimize", "control", "prevent", "avoid", "eliminate", "mitigate"
-        ]
-
-        for keyword in improvement_keywords:
-            pattern = rf"\b{keyword}\w*\s+(?:the\s+)?(.{{10,60}}?)(?:\.|,|;|\s+of|\s+by)"
-            matches = re.finditer(pattern, text, re.IGNORECASE)
-            for match in matches:
-                requirement_text = f"{keyword} {match.group(1).strip()}"
-                found_requirements.append({
-                    "entity": requirement_text,
-                    "type": "Requirement",
-                    "action": keyword,
-                    "position": match.start(),
-                    "method": "improvement_keyword"
-                })
-
-        # MÉTODO 5: Buscar palabras objetivo en todo el texto (no solo primeros 500 chars)
+        # MÉTODO 3: mapeo directo a TARGET_REQUIREMENTS
+        # Si aparece textualmente uno de los objetivos canónicos,
+        # se registra con su categoría. Sin captura de contexto.
+        text_lower = text.lower()
         for req_category, keywords in self.target_requirements.items():
             for keyword in keywords:
-                if keyword.lower() in text_lower:
-                    # Buscar contexto más amplio alrededor de la palabra
-                    keyword_pattern = rf".{{0,70}}{re.escape(keyword.lower())}.{{0,70}}"
-                    matches = re.finditer(keyword_pattern, text_lower)
-                    for match in matches:
-                        context = match.group().strip()
-                        # Verificar que hay verbos de acción cerca
-                        if any(verb in context for verb in
-                               ["improve", "increase", "reduce", "control", "optimize", "enhance"]):
-                            found_requirements.append({
-                                "entity": context,
-                                "type": "Requirement",
-                                "action": req_category,
-                                "position": match.start(),
-                                "method": "target_keyword_context"
-                            })
+                kw = keyword.lower()
+                for match in re.finditer(rf"\b{re.escape(kw)}\b", text_lower):
+                    found_requirements.append({
+                        "entity": kw,
+                        "type": "Requirement",
+                        "action": req_category,
+                        "position": match.start(),
+                        "method": "target_keyword"
+                    })
 
-        # Eliminar duplicados (más agresivo)
+        # Eliminar duplicados por (entidad normalizada, acción).
+        # Ya NO se usan primeros 40 chars como clave (era demasiado laxo
+        # y colapsaba requirements distintos que empezaban igual).
         seen = set()
         unique_requirements = []
         for r in found_requirements:
-            # Normalizar el texto para comparación
-            normalized = r['entity'].lower().strip()
-            # Usar primeros 40 caracteres como clave
-            key = normalized[:40]
+            key = (r["entity"].strip().lower(), r["action"])
             if key not in seen:
                 seen.add(key)
                 unique_requirements.append(r)
@@ -289,9 +335,12 @@ class RFSLExtractor:
 
         full_text = " ".join(text_sources.values())
 
-        # Extraer entidades
+        # Extraer entidades sobre el texto completo (abstract+title+claims+description).
+        # Antes extract_requirements se limitaba a abstract+title, lo que dejaba fuera
+        # los objetivos de la invención que suelen estar en la descripción
+        # ("DISCLOSURE OF THE INVENTION", "BACKGROUND", etc.).
         entities = {
-            "R": self.extract_requirements(text_sources["abstract"] + " " + text_sources["title"]),
+            "R": self.extract_requirements(full_text),
             "F": self.extract_functions(full_text),
             "S": self.extract_structures(full_text),
             "L": self.extract_locations(full_text)
